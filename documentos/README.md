@@ -9,11 +9,11 @@ Adicionar descrição da solução.
 
 ## Entendimento do Negócio - Sprint 1
 
-Acesso ao arquivo referente à entrega: [entendimento do negócio](https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/documentos/EntendimentoNegocio.md).
+Acesso ao arquivo referente à entrega: [entendimento do negócio](https://github.com/2023M6T4-Inteli/Projeto01/blob/dev/documentos/EntendimentoNegocio.md).
 
 ## Entendimento da Experiência do Usuário - Sprint 1
 
-Acesso ao arquivo referente à entrega: [entendimento da experiência do usuário](https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/documentos/EntendimentoUX.md). 
+Acesso ao arquivo referente à entrega: [entendimento da experiência do usuário](https://github.com/2023M6T4-Inteli/Projeto01/blob/dev/documentos/EntendimentoUX.md). 
 
 ## (Sprint 2) Modelo de Bag of Words (IPYNB)
 
