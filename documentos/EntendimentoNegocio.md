@@ -9,7 +9,7 @@ Ao utilizar a matriz, é possível elaborar o modelo de quatro ações, que visa
 - **Aumentar**: nessa ação é possível incrementar atributos a fim de deixá-los mais em evidência com relação às empresas concorrentes analisadas.
 - **Criar**: essa ação permite a criação de um novo atributo que a indústria não explorou ou ofereceu aos seus clientes.
 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/oceano%20azul.png" alt = "Matriz Oceano Azul"  >
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/oceano%20azul.png" alt = "Matriz Oceano Azul"  >
 
 **1. Relação qualidade/preço:** Esse parâmetro avalia a qualidade do produto em relação ao preço cobrado pela empresa. Ele deve descrever se o preço do serviço está de acordo com a qualidade do produto oferecido e como ele se compara com outras empresas do mercado.
 
@@ -65,7 +65,7 @@ A Matriz de Risco é uma ferramenta que proporciona uma análise abrangente das 
 
 Segue a lista de todos os riscos (ameaças e oportunidades):
 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/Matriz%20de%20risco.png" alt = "Imagem referente a matriz de risco." >
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/Matriz%20de%20risco.png" alt = "Imagem referente a matriz de risco." >
 
 Abaixo, é possível visualizar a legenda, referente à matriz de risco acima:
 
@@ -149,7 +149,7 @@ O Canvas de Proposta de Valor tem como objetivo apresentar, de forma visual, uma
 
 Abaixo é possível visualizar o canvas Proposta de Valor referente ao nosso projeto:
 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/value_canvas.png" alt = "Imagem referente ao canvas proposta de valor." >
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/value_canvas.png" alt = "Imagem referente ao canvas proposta de valor." >
 
 ### Perfil do cliente:
 #### Tarefa do cliente: 
@@ -188,5 +188,5 @@ São elas:
 - Churn = 0%
 - Crescimento de 15% no número de clientes por mês.
 Sendo assim, obtivemos a seguinte projeção:
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/Analise%20financeira.png" alt = "Imagem referente à análise financeira." >
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/Analise%20financeira.png" alt = "Imagem referente à análise financeira." >
 O entendimento de quanto a solução iria economizar com o aumento da efetividade de suas campanhas é algo muito difícil de mensurar, pois precisaríamos do produto pronto para entender o quão efetivo, de fato, seria, além de entender toda a esteira de processos dentro do marketing. Nessa situação, ainda seria necessário assumir uma série de premissas que teriam uma baixa confiabilidade, como: “quanto o BTG investe em marketing por ano”, “a efetividade que nossa solução traria iria converter em qual economia por campanha gasta pelo BTG?”. Pela quantidade de riscos e pela falta de confiança no resultado final, optamos por não apresentar essa projeção, contentando-nos apenas com a análise realizada anteriormente.
