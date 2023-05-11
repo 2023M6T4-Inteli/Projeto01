@@ -14,6 +14,7 @@ Todas as tuplas que não aprensenta nem um texto nós descartamos do dataframe.
 ### Código para remoção dos acentos
 
 ### Tratamento letras maiusculas
+O tratamento de letras maiúsculas é importante porque, muitas vezes, a diferença entre letras maiúsculas e minúsculas pode impactar negativamente a análise do algoritmo, tendo em vista que ele pode interpretar as palavras como diferentes em determinadas situações. Esse problema pode levar a resultados imprecisos, considerando que, diante do objetivo de contar a frequência de palavras, essas diferenças garantem que as palavras sejam contadas de maneira distinta.  Além disso, é muito importante considerar que letras maiúsculas são usadas em diferentes contextos, como por exemplo, no início de nomes próprios, início de frases, entre outros, o que pode mudar o sentido das frases. E também padronizar o Bag Of Words.  Por isso, a necessidade de aplicar conversão de todas as letras minúsculas, ou tratar a diferença entre maiúsculas e minúsculas com devida atenção. 
 
 ### Tokenização
 
@@ -27,3 +28,4 @@ A remoção dos Stop Words é um pré-processamento importante pois elimina pala
 ### Remoção de colunas irrelevantes para o modelo
 
 ## Modelo BoW
+O modelo de bag of words (ou, em tradução literal, saco de palavras) é uma representação que transforma texto em vetores de tamanho fixo para contar quantas vezes as palavras aparecem nas frases em questão. Esse método é comumente chamado de vetorização.
