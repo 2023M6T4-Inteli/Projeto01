@@ -1,7 +1,7 @@
 # Entendimento da experiência do usuário.
 A fim de criar artefatos de planejamento estratégico capazes de nortear o entendimento da experiência do usuário da aplicação, desenvolvemos a criação de duas personas e de cinco histórias dos usuários. Ambos artefatos estão dispostos abaixo.
 ## Personas
-<img src="https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/persona%201.png" width = "200px" height="200px" >
+<img src="https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/persona%201.png" width = "200px" height="200px">
 
 **Nome**: Gabriel Rodrigues
 
@@ -23,7 +23,7 @@ A fim de criar artefatos de planejamento estratégico capazes de nortear o enten
 
 **Objetivos com o problema**: Tendo isso em mente, Gabriel gostaria de ter acesso a ferramentas e códigos que consiga suprir as falhas apresentadas por seu desenvolvimento anterior..  Dessa forma, seu principal objetivo nesse momento é potencializar as análises realizadas pelo algoritmo, permitindo que o time de marketing atue de forma assertiva no desenvolvimento de outras campanhas para as redes sociais. De modo geral, essa melhoria permitirá que o banco tenha postagens mais bem estruturadas e direcionadas, o que resultará em  um lucro mais pungente.
 #
-<img src="https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/persona%202.png" width = "200px" height="200px" >
+<img src="https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/persona%202.png" width = "200px" height="200px" >
 
 **Nome**: Fernanda Soares
 
