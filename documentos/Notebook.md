@@ -50,8 +50,7 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 - **Tratamento de abreviações:** Dado que nosso trabalho envolve a manipulação de textos extraídos das redes sociais, onde uma quantidade significativa de comentários contém abreviações, não podemos simplesmente descartá-las. Para incorporá-las de forma eficaz em nosso modelo, precisamos realizar um tratamento adequado dessas abreviações, substituindo-as por suas versões completas. Isso permitirá que o modelo compreenda e processe melhor essas expressões.
 
-- **Remoção de todas as linhas que não possuem a coluna texto:**
-Todas as tuplas que não aprensenta nem um texto nós descartamos do dataframe.
+- **Remoção de todas as linhas que não possuem a coluna texto:** Descartamos do dataframe todas as tuplas que não apresentam qualquer texto de comentário. Tal ação visa aumentar a velocidade de execução do nosso modelo e garantir que ele não seja de alguma forma influenciado por esses registros vazios.
 
 ### Remoção de todos comentarios criados pelo btgpactual
 
