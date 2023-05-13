@@ -48,7 +48,7 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 - **Remoção de Stop Words:** A remoção dos Stop Words é um pré-processamento importante pois elimina palavras irrelevantes que podem prejudicar a precisão do modelo final, como artigos, preposições, conjunções, entre outros conectores. Esse tratamento ajuda na eficácia da classificação de texto e na redução tanto do vocabulário quanto de ruídos (palavras que não têm um valor semântico significativo)
 
-- **Tratamento de abreviações:**
+- **Tratamento de abreviações:** Dado que nosso trabalho envolve a manipulação de textos extraídos das redes sociais, onde uma quantidade significativa de comentários contém abreviações, não podemos simplesmente descartá-las. Para incorporá-las de forma eficaz em nosso modelo, precisamos realizar um tratamento adequado dessas abreviações, substituindo-as por suas versões completas. Isso permitirá que o modelo compreenda e processe melhor essas expressões.
 
 - **Remoção de todas as linhas que não possuem a coluna texto:**
 Todas as tuplas que não aprensenta nem um texto nós descartamos do dataframe.
