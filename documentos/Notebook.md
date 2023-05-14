@@ -62,7 +62,8 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 - **Remoção de todas as linhas que não possuem a coluna texto:** Descartamos do dataframe todas as tuplas que não apresentam qualquer texto de comentário. Tal ação visa aumentar a velocidade de execução do nosso modelo e garantir que ele não seja de alguma forma influenciado por esses registros vazios.
 
-[PIPELINE]
+
+## PIPELINE
 
 ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/a5084a02-42e6-495c-8605-30a211ca97d8)
 
