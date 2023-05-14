@@ -66,7 +66,7 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 ## Resultados
 
-[NUVEM DE PALAVRAS]
+<img width="566" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/c1d40abe-ad2a-4723-9ccb-06c1d2126c37">
 
 ## Conclusão
 
