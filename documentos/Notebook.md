@@ -64,6 +64,9 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 [PIPELINE]
 
+![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/a5084a02-42e6-495c-8605-30a211ca97d8)
+
+
 ## Resultados
 
 <img width="566" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/c1d40abe-ad2a-4723-9ccb-06c1d2126c37">
