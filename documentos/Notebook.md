@@ -64,10 +64,11 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 [PIPELINE]
 
-##Resultados
+## Resultados
+
 [NUVEM DE PALAVRAS]
 
-##Conclusão
+## Conclusão
 
 
 ## Referências
