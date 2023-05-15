@@ -88,7 +88,7 @@ Ao usar essa pipeline de pré-processamento, nosso objetivo é deixar o texto li
 
 ## Resultados
 
-<img width="566" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/c1d40abe-ad2a-4723-9ccb-06c1d2126c37"> ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/95352ad9-5583-48e1-a9a4-1c26c2ca7d9d)
+![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/a81b6f13-80db-4848-8690-d2e4e1f3e143) ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/95352ad9-5583-48e1-a9a4-1c26c2ca7d9d)
 
 
 A visualização de nuvem de palavras é uma forma de representar de maneira visual os principais resultados da análise de BoW. Ao analisar os dados, identificamos algumas palavras-chave recorrentes, tais como "btg", "banco", "limite", "conta", "cartão" e "ajudar". Essas palavras fornecem insights valiosos e nos permitem chegar a duas conclusões:
