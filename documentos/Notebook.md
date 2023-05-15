@@ -90,7 +90,7 @@ Uma pipeline é importante para facilitar a visualização e análise na sequên
 Figura 1. Pipeline desenvolvida com as etapas do pré-processamento dos dados, com uma frase utilizada como exemplo para demonstrar o resultado de cada etapa no texto.
 
 ## Resultados
-Os resultados obtidos poodem ser observados na tabela com a frequência das dez palavras que tiveram mais ocorrências no banco de dados:
+Os resultados obtidos podem ser observados na tabela com a frequência das dez palavras que tiveram mais ocorrências no banco de dados:
 
 
 | **Palavra** 	| Repetição 	|
@@ -119,16 +119,16 @@ Figura 3. Nuvem de palavras de um bag of words com um conjunto que passou apenas
 A visualização de nuvem de palavras é uma forma de representar de maneira visual os principais resultados da análise de bag of words. Ao analisar os dados,  algumas palavras-chave são recorrentes, tais como "btg", "banco", "limite", "conta", "cartão" e "ajudar".
 Também foi possível perceber variações de palavras que não foram tratadas, mas que possuem o mesmo sentido, como plurais, e palavras com tempos verbais diferentes, bem como palavras que não representam nenhum insight importante, como "voces", "dia", "estamos", entre outras.
 
-Outro ponto a destacar é palavras que estão diretamente ligada ao nosso parceiro de projeto, como "btg", "banco", mas que não trazem nenhum insight, já que são naturalmente esperadas de aparecer em uma rede social de um banco, podendo ser utilizadas também como stop words.
+Outro ponto a destacar é palavras que estão diretamente ligadas ao nosso parceiro de projeto, como "btg", "banco", mas que não trazem nenhum insight, já que são naturalmente esperadas de aparecer em uma rede social de um banco, podendo ser utilizadas também como stop words.
 
 ## Conclusão
 Após a análise nos tratamentos realizados e nos resultados obtidos, é possível chegar a dois tipos de conclusões:
 
-I - O tratamento dos dados está na direção correta, visto que foi obter algumas percepções relevantes mesmo nessa fase inicial. Levando em conta a análise manual na rede social em questão, possuíam comentários sobre a insatisfação de clientes sobre o limite do cartão, e isso pôde ser verificado na nuvem de palavras que passou por todo o pré-procesamento. Adicionalmente, algumas palavras menos frequentes também desempenham um papel importante na análise. Um exemplo disso é o nome "Flávio", que se destaca devido à sua participação em uma campanha de marketing como atleta. Essa associação pode indicar sucesso em um nicho específico, levantando a importância de recortes nos conjuntos de dados, com períodos de tempo espoecíficos, para avaliar o desempenho em campanhas, por exemplo.
+I - O tratamento dos dados está na direção correta, visto que foi obter algumas percepções relevantes mesmo nessa fase inicial. Levando em conta a análise manual na rede social em questão, possuíam comentários sobre a insatisfação de clientes sobre o limite do cartão, e isso pode ser verificado na nuvem de palavras que passou por todo o pré-procesamento. Adicionalmente, algumas palavras menos frequentes também desempenham um papel importante na análise. Um exemplo disso é o nome "Flávio", que se destaca devido à sua participação em uma campanha de marketing como atleta. Essa associação pode indicar sucesso em um nicho específico, levantando a importância de recortes nos conjuntos de dados, com períodos de tempo espoecíficos, para avaliar o desempenho em campanhas, por exemplo.
 
 II - Considerando que esta fase de análise visa avaliar e definir o direcionamento das próximas etapas, uma das medidas que devemos adotar é a exclusão dos comentários relacionados ao BTG. Essa exclusão contribuirá para uma visualização mais clara e destacará apenas as informações verdadeiramente relevantes, bem como outras stop words que estão diretamente ligadas ao setor da empresa, mas não trazem insights, como "banco". Outro tratamento necessário é o de plurais, que podem dividir a frequência de palavras importantes, como "investimento" e "investimentos".
 
-Para finalizar, a partir da comparação dos resultados de uma nuvem de palavras de um conjunto que passou por todos os tratamentos e um conjunto com os dados brutos, fica muito claro que a análise de escolhas e tratamentos dos dados impactam diretamente na qualidade final do modelo bag of words, sendo inclusive necessário reavaliar para incrementar o modelo para obter resultados melhores e mais focados em manter apenas palavras-chave, possibilitando assim, insights valiosos para o nosso parceiro de projeto.
+Para finalizar, a partir da comparação dos resultados de uma nuvem de palavras de um conjunto que passou por todos os tratamentos e um conjunto com os dados brutos, fica claro que a análise de escolhas e tratamentos dos dados impactam diretamente na qualidade final do modelo bag of words, sendo inclusive necessário reavaliar para incrementar o modelo para obter resultados melhores e mais focados em manter apenas palavras-chave, possibilitando assim, insights valiosos para o nosso parceiro de projeto.
 
 ## Referências
 Lee, J., Warner, E., Shaikhouni, S. et al. "Unsupervised machine learning for identifying important visual features through bag-of-words using histopathology data from chronic kidney disease", Scientific Reports, 2022. 
