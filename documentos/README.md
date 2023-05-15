@@ -21,7 +21,7 @@ Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
 
 ## (Sprint 2) Documentação do Modelo de Bag of Words
 
-Preencher conforme a descrição do artefato na Adalove.
+Acesso ao arquivo referente à entrega: [Documentação do Modelo Bag of Words](https://github.com/2023M6T4-Inteli/Projeto01/blob/dev/documentos/Notebook.md)
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
