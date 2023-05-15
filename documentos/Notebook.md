@@ -62,6 +62,7 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 - **Remoção de todas as linhas que não possuem a coluna texto:** Descartamos do dataframe todas as tuplas que não apresentam qualquer texto de comentário. Tal ação visa aumentar a velocidade de execução do nosso modelo e garantir que ele não seja de alguma forma influenciado por esses registros vazios.
 
+- **Tratamento de emojis:** Emojis são muito utilizados por usuários de redes sociais, ajudando-os, assim, a expressar emoções e sentimentos. Portanto, para melhor entender o sentido de uma mensagem, o tratamento de emojis podem fornecer uma melhor precisão para a análise e uma classificação mais precisa dos sentimentos de uma mensagem.
 
 ## PIPELINE
 
