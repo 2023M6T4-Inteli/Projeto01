@@ -71,10 +71,15 @@ Uma pipeline, é uma sequência de etapas ou operações que são aplicadas aos 
 Em nossa pipeline específica, focada em pré-processamento de texto, implementamos várias etapas para otimizar a qualidade dos dados. Essas etapas incluem:
 
 Remoção de acentos: Consiste em eliminar os acentos das palavras, evitando discrepâncias nas formas de escrita.
+
 Remoção de letras maiúsculas: Transformação de todas as letras do texto em minúsculas, para evitar separar no BoW duas palavras iguais.
+
 Tradução de emojis: Conversão de emojis presentes no texto para sua forma textual.
+
 Tratamento de abreviação: Identificação e expansão de abreviações tornando o texto mais legível para análises posteriores.
+
 Tokenização: Divisão do texto em unidades menores, como palavras ou subpalavras, conhecidas como tokens. Essa etapa facilita a análise e o processamento posterior do texto.
+
 Remoção de stop words: Eliminação de palavras comuns, como artigos e preposições, que geralmente não contêm informações relevantes para as análises.
 
 ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/a5084a02-42e6-495c-8605-30a211ca97d8)
