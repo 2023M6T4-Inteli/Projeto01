@@ -21,7 +21,7 @@ Acesso ao arquivo referente à entrega: [modelo de bag of words](https://github.
 
 ## Documentação do Modelo de Bag of Words
 
-Acesso ao arquivo referente à entrega: [Documentação do modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/dev/documentos/Notebook.md)
+Acesso ao arquivo referente à entrega: [documentação do modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/Notebook.md)
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
