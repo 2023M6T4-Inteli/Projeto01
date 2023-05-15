@@ -15,11 +15,11 @@ Acesso ao arquivo referente à entrega: [entendimento do negócio](https://githu
 
 Acesso ao arquivo referente à entrega: [entendimento da experiência do usuário](https://github.com/2023M6T4-Inteli/Projeto01/blob/main/documentos/EntendimentoUX.md). 
 
-## Modelo de Bag of Words (IPYNB)
+## Modelo de Bag of Words (IPYNB) - Sprint 2
 
 Acesso ao arquivo referente à entrega: [modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/src/notebook/ModeloPLN_grupo1_sprint2.ipynb). 
 
-## Documentação do Modelo de Bag of Words
+## Documentação do Modelo de Bag of Words - Sprint 2
 
 Acesso ao arquivo referente à entrega: [documentação do modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/Notebook.md)
 
