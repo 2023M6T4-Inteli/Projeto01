@@ -98,7 +98,7 @@ Adicionalmente, embora sejam menos citadas, algumas palavras menos frequentes ta
 II - Considerando que esta fase de análise visa avaliar e definir o direcionamento das próximas etapas, uma das medidas que devemos adotar é a exclusão dos comentários relacionados ao BTG. Essa exclusão contribuirá para uma visualização mais clara e destacará apenas as informações verdadeiramente relevantes.
 
 ## Conclusão
-
+Apartir dos resultados obtidos e com a avaliacao do cliente, podemos destacar que precisariamos fazer melhorias nos seguntes atributos: retirada da palavra btg e btgpactual no bagof words, ja que eh obvio que btg vai ser umas das palavras mais frequentes e isso nao gera nem um inghts relevantes; 
 
 ## Referências
 Lee, J., Warner, E., Shaikhouni, S. et al. Unsupervised machine learning for identifying important visual features through bag-of-words using histopathology data from chronic kidney disease. Sci Rep 12, 4832 (2022). https://doi.org/10.1038/s41598-022-08974-8
