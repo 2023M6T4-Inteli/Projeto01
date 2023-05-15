@@ -68,10 +68,16 @@ Segue abaixo todos os pré-processamentos selecionados:
 
 ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99211976/a5084a02-42e6-495c-8605-30a211ca97d8)
 
-
 ## Resultados
 
 <img width="566" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/c1d40abe-ad2a-4723-9ccb-06c1d2126c37">
+
+A visualização de nuvem de palavras é uma forma de representar de maneira visual os principais resultados da análise de BoW. Ao analisar os dados, identificamos algumas palavras-chave recorrentes, tais como "btg", "banco", "limite", "conta", "cartão" e "ajudar". Essas palavras fornecem insights valiosos e nos permitem chegar a duas conclusões:
+
+I - Nossa análise está caminhando na direção correta, visto que já podemos obter algumas percepções relevantes mesmo nessa fase inicial. Por exemplo, notamos que a demanda mais significativa dos clientes está relacionada a cartões de crédito.
+Adicionalmente, embora sejam menos citadas, algumas palavras menos frequentes também desempenham um papel importante na análise. Um exemplo disso é o nome "Flávio", que se destaca devido à sua participação em uma campanha de marketing como atleta. Essa associação pode indicar sucesso em um nicho específico.
+
+II - Considerando que esta fase de análise visa avaliar e definir o direcionamento das próximas etapas, uma das medidas que devemos adotar é a exclusão dos comentários relacionados ao BTG. Essa exclusão contribuirá para uma visualização mais clara e destacará apenas as informações verdadeiramente relevantes.
 
 ## Conclusão
 
