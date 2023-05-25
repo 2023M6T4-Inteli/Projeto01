@@ -25,7 +25,7 @@ Acesso ao arquivo referente à entrega: [documentação do modelo de bag of word
 
 ## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
 
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
+Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/CBOW.md)
 
 ## (Sprint 3) Documentação do Modelo utilizando Word2Vec
 
