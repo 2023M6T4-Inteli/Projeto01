@@ -5,18 +5,8 @@
 </p>
 
 # IA para Marketing: Monitoramento de campanhas utilizando processamento de linguagem natural (PLN)
-
-## Empresa
-
-<p align="center">
-<a href= "https://www.btgpactual.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Btg-logo-blue.svg" alt="BTG" border="0" width="200"></a>
-</p>
   
 ## Feel Good
-
-<p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/47/TBD-W.svg" alt="Logo do Grupo" border="0" width="150">
-</p>
 
 ## Integrantes
 - <a href="https://www.linkedin.com/in/gustavo-monteiro-1a499919a/">Gustavo Monteiro</a>
@@ -86,6 +76,8 @@ A cada atualização os detalhes devem ser lançados aqui (segue exemplo abaixo)
 
 ## 📋 Licença/License
 
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023M6T4-Inteli">IA para Marketing: Monitoramento de campanhas utilizando processamento de linguagem natural (PLN)</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/InteliProjects">Inteli</a>, <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023M6T4-Inteli/Projeto01">Feel Good</a>: <a href="https://www.linkedin.com/in/gustavo-monteiro-1a499919a/">Gustavo Monteiro</a>, <a href="https://www.linkedin.com/in/izabellaalmeida/">Izabella Almeida</a>, <a href="https://www.linkedin.com/in/gutopompeo/">Luiz Augusto Ferreira</a>, <a href="https://www.linkedin.com/in/patrick-miranda/">Patrick Miranda</a>, <a href="https://www.linkedin.com/in/raduanmuarrek/">Raduan Muarrek</a>, <a href="https://www.linkedin.com/in/uelitonrocha/">Ueliton Rocha</a>, <a href="https://www.linkedin.com/in/vit%C3%B3ria-rodrigues-de-oliveira-bb955921b/">Vitória Rodrigues </a>
+
 Licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 
 ## 🎓 Referências
@@ -95,3 +87,4 @@ Aqui estão as referências usadas no projeto (exemplos abaixo).
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
+
