@@ -93,13 +93,19 @@ Os resultados foram os seguintes: o modelo Naive Bayes com Word2Vec obteve uma a
 
 ## Comparação com o modelo de Bag of Words (BoW)
 
-[Diferença entre bag of words e esses modelos dessa sprint (introdução)]
+Ambos os modelos de Bag of Words e Word2Vec são tecnicas para processamento de linguagem natural, mas o seu funcionamento é muito diferente. O modelo Bag of Words é uma técnica que converte cada palavra das frases em seu imput em um vocabulário, e as sentenças recebidas recebem uma classificação, caso a palavra apareça ou não, gerando uma matriz binária da ocorrência das palavras considerando a frequência das palavras. Já o modelo Word2Vec faz uso de vetores, considerando também um peso para as palavras, de acordo com palavras vizinhas desta, levando em conta assim o contexto em que a palavra foi utilizada.
+
+Em geral, vetores de incorporação semântica levam a uma maior precisão nos resultados das modelagens. Isso também se deve pelo modelo Word2Vec ser pré-treinado, tendo acesso a uma base de dados maior do que o utilizado no modelo Bag of Words (Feng & Thuremella, 2018).
+
+Também é importante ressaltar que o modelo Bag of Words é mais simples e por necessitar apenas da frequência das palavras, é mais eficiente. Mas por não considerar a ordem ou contexto das palavras, não possui tanta precisão, e quando o banco de dados é muito grande, ele gera um vocabulário que requer um processamento relevante para gerar seus resultados.
+
+Em relação ao modelo Word2Vec, por considerar a semântica e o contexto, ele identifica mais facilmente palavras similares e analogias, reduzindo assim a dimensionalidade das representações das palavras no seu espaço vetorial, em comparação ao modelo Bag of Words.
+Mas por ser um modelo mais complexo, necessita de um poder de processamento relevante, e tem dificuldade de lidar com palavras que aparecem poucas vezes.
 
 [Apresentar resultados sprint anterior]
 
 [comparar resultados sprint anterior com essa sprint]
 
-[diferença entre os modelos com vantagens e desvantagens]
 
 ## Conclusão 
 O modelo conseguiu fornecer com sucesso os vetores referentes a cada frase inserida no modelo. Como foi utilizado um modelo CBOW 50, como modelo pré-treinado, o output do modelo também foi um vetor de 50 dimensões para cada frase inserida nele.
@@ -116,3 +122,5 @@ CHEN, D., NIGRI, E., OLIVEIRA, G.,SEPULVENE, L., ALVES, T.: Métricas de Avalia�
 FRANCESCHI, P, R.: Modelagens Preditivas de Churn: O Caso do Banco do Brasil, Universidade do Vale do Rio dos Sinos, 2019.
 
 Qi, Y., Sachan, D. S., Feliz, M., Padmanabhan, S. J., Neubig, G., When and Why asre Pre-trained Word Embeddings Useful for Neural Machine Translation?, Language Technologies Institute, Carnegie Mellon University, 2018.
+
+Feng, B., Thuremella, D., A Tale of Two Encodings: Comparing Bag-of-Words and Word2vec for VQA, Princeton University, 2018.
