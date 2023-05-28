@@ -4,10 +4,6 @@
 
 [Escrever texto introdutório sobre o uso de dois modelos Word2Vec pré-treinado e com embedding layer]
 
-## Embedding Layer
-O embedding layer, desempenha um papel fundamental no processamento de linguagem natural (NLP). Pois, na NLP as palavras precisam ser convertidas em representações numéricas para que assim consigam ser processadas por algoritmo e é isso que o embedding layer faz, ele faz essa conversão, transformando palavras em vetores densos de números reais. 
-Esses vetores têm a capacidade de capturar informações semânticas e contextuais das palavras. Ou seja, as palavras com significados semelhantes ou usadas em contextos semelhantes terão vetores de incorporação próximos no espaço vetorial.
-
 ## Modelo Word2Vec
 
 O modelo word2Vec é um algoritmo de Machine Learning utilizado em linguagem natural para gerar representações vetoriais de palavras e capturar relações semânticas. Esse modelo mapeia palavras em vetores, de forma que as palavras semanticamente similares fiquem próximas umas das outras.
@@ -28,7 +24,8 @@ E por fim, foi realizado a soma desses vetores, gerando um vetor referente a cad
 
 ## Modelo Word2Vec utilizando Embedding Layer
 
-[introdução]
+O embedding layer, desempenha um papel fundamental no processamento de linguagem natural (NLP). Pois, na NLP as palavras precisam ser convertidas em representações numéricas para que assim consigam ser processadas por algoritmo e é isso que o embedding layer faz, ele faz essa conversão, transformando palavras em vetores densos de números reais. 
+Esses vetores têm a capacidade de capturar informações semânticas e contextuais das palavras. Ou seja, as palavras com significados semelhantes ou usadas em contextos semelhantes terão vetores de incorporação próximos no espaço vetorial.
 
 ### Método escolhido
 
