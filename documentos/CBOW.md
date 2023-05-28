@@ -1,6 +1,6 @@
 
 
-# Modelos utilizados
+# Modelos utilizados para processamento de Linguagem Natural
 
 [Escrever texto introdutório sobre o uso de dois modelos Word2Vec pré-treinado e com embedding layer]
 
@@ -30,14 +30,32 @@ E por fim, foi realizado a soma desses vetores, gerando um vetor referente a cad
 
 [Explicação das etapas e decisões tomadas na construção do modelo]
 
-## Modelo de Classificação Naive Bayes
+## Modelos de Classificação 
+
+[introduçao falando do udo de rede neural e naive bayes]
+
+### Rede Neural
 
 [Introdução]
+
 [método escolhido para aplicar modelo]
+
 [explicações com linha de raciocínio de aplicação]
+
+[justificativa para uso de Rede Neural]
+
+### Naive Bayes
+
+[Introdução]
+
+[método escolhido para aplicar modelo]
+
+[explicações com linha de raciocínio de aplicação]
+
 [justificativa para uso do Naive bayes]
 
 ## Métricas utilizadas para avaliação dos resultados
+
 [acuracia e matriz de confusão]
 
 ## Resultados obtidos
@@ -47,14 +65,19 @@ E por fim, foi realizado a soma desses vetores, gerando um vetor referente a cad
 ## Comparação com o modelo de Bag of Words (BoW)
 
 [Diferença entre bag of words e esses modelos dessa sprint (introdução)]
+
 [Apresentar resultados sprint anterior]
+
 [comparar resultados sprint anterior com essa sprint]
+
 [diferença entre os modelos com vantagens e desvantagens]
 
 ## Conclusão 
 O modelo conseguiu fornecer com sucesso os vetores referentes a cada frase inserida no modelo. Como foi utilizado um modelo CBOW 50, como modelo pré-treinado, o output do modelo também foi um vetor de 50 dimensões para cada frase inserida nele.
 
 Sendo assim, este vetor é gerado. Além de ser possível medir a similaridade entre as frases, com auxílio de um modelo de classificação, como Naive Bayes, e redes neurais, esses vetores podem ser utilizados como input de treinamento para o modelo, e para a classificação dos comentários.
+
+[Colocar mais conclusao também as analises do cliente na apresentação]
 
 ## Referencias:
 http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
