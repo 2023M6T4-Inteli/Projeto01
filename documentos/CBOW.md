@@ -24,14 +24,19 @@ E por fim, foi realizado a soma desses vetores, gerando um vetor referente a cad
 
 ## Modelo Word2Vec utilizando Embedding Layer
 
-O uso do Embedding Layer em conjunto com o modelo Word2Vec permite que o modelo atribua vetores de números reais a cada palavra do vocabulário, representando suas características semânticas de forma compacta. Esse uso em conjunto traz alguns benefícios como lidar com a dimensionalidade variável dos dados, convertendo palavras em vetores densos de comprimento fixo, o que facilita o processamento e análise. Além disso, essa combinação melhora a generalização para palavras não vistas durante o treinamento, pois o modelo aprende a extrair informações contextuais e considerar as relações entre as palavras. Dessa forma, mesmo palavras ausentes no conjunto de treinamento podem ser inseridas com base em palavras semanticamente similares.
+O método Embedding Layer é utilizado para a representação vetorial em dados categóricos. Esse uso em conjunto traz alguns benefícios como lidar com a dimensionalidade variável dos dados, convertendo palavras de um vocabulário maior em vetores densos de comprimento fixo, menores que os vetores de entrada, o que facilita o processamento e análise. Além disso, essa combinação melhora a generalização para palavras não vistas durante o treinamento, pois o modelo aprende a extrair informações contextuais e considerar as relações entre as palavras. Dessa forma, mesmo palavras ausentes no conjunto de treinamento podem ser inseridas com base em palavras semanticamente similares (Qi, et al, 2018).
 
 
 ### Método escolhido
 
-Considerando os tratamentos realizados no pré-processamento dos dados e a tokenização, é possível utilizar a classe Dictionary da biblioteca genshin, criando um vocabulário a partir do mapeamento da cada palavra única, dando sequência para o treinamento de um modelo Word2Vec. Com isso, um DataFrame com os vetores das palavras é feito, e é possível exibr as palavras por similaridade.
+O vetor de embedding pode ser utilizado para diversas finalidades, a depender de como o Word2vec é treinado e com as camadas aprendidas. 
 
-A partir da representação vetorial das palavras e palavras similares, é criada a relação semântica e contextual entre as palavras.
+O Word2vec é treinado para predição de palavras e o seu contexto, em comparação às outras palavras, como dito por John Rpert Firth, "Você conhecerá uma palavra pela sua companheira". Assim o Word2Vec aprende o conjunto em que a palavra pode aparecer, usando a similaridade entre os vetores.
+
+No caso de embeddings aprendidos, o modelo pode ser treinado para prever sentimentos, com base nas palavras utilizadas nas frases, como palavras que frequentemente aparecem em frases positivas, ou mais comuns em frases negativas.
+
+Considerando os tratamentos realizados no pré-processamento dos dados e a tokenização, é possível criar um vocabulário mapeando cada palavra única, dando sequência para o treinamento de um modelo Word2Vec com embedding layers. Com isso, um DataFrame com os vetores das palavras é feito, e é possível exibr as palavras por similaridade, importante para a representação vetorial das palavras e palavras similares, e criando a relação semântica e contextual entre as palavras.
+
 
 ## Modelos de Classificação 
 
@@ -91,6 +96,9 @@ Sendo assim, este vetor é gerado. Além de ser possível medir a similaridade e
 
 ## Referencias:
 http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
+
 CHEN, D., NIGRI, E., OLIVEIRA, G.,SEPULVENE, L., ALVES, T.: Métricas de Avaliação em Machine Learning: Classificação - Kunumi Blog, medium, 2020.
 
 FRANCESCHI, P, R.: Modelagens Preditivas de Churn: O Caso do Banco do Brasil, Universidade do Vale do Rio dos Sinos, 2019.
+
+Qi, Y., Sachan, D. S., Feliz, M., Padmanabhan, S. J., Neubig, G., When and Why asre Pre-trained Word Embeddings Useful for Neural Machine Translation?, Language Technologies Institute, Carnegie Mellon University, 2018.
