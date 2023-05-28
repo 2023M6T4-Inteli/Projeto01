@@ -24,7 +24,7 @@ E por fim, foi realizado a soma desses vetores, gerando um vetor referente a cad
 
 ## Modelo Word2Vec utilizando Embedding Layer
 
-O uso do Embedding Layer em conjunto com o modelo Word2Vec permite que o modelo atribua vetores de números reais a cada palavra do vocabulário, representando suas características semânticas de forma compacta. A utilização do Embedding Layer com o Word2Vec traz alguns benefícios como lidar com a dimensionalidade variável dos dados, convertendo palavras em vetores densos de comprimento fixo, o que facilita o processamento e análise. Além disso, essa combinação melhora a generalização para palavras não vistas durante o treinamento, pois o modelo aprende a extrair informações contextuais e considerar as relações entre as palavras. Dessa forma, mesmo palavras ausentes no conjunto de treinamento podem ser inseridas com base em palavras semanticamente similares.
+O uso do Embedding Layer em conjunto com o modelo Word2Vec permite que o modelo atribua vetores de números reais a cada palavra do vocabulário, representando suas características semânticas de forma compacta. Esse uso em conjunto traz alguns benefícios como lidar com a dimensionalidade variável dos dados, convertendo palavras em vetores densos de comprimento fixo, o que facilita o processamento e análise. Além disso, essa combinação melhora a generalização para palavras não vistas durante o treinamento, pois o modelo aprende a extrair informações contextuais e considerar as relações entre as palavras. Dessa forma, mesmo palavras ausentes no conjunto de treinamento podem ser inseridas com base em palavras semanticamente similares.
 
 
 ### Método escolhido
