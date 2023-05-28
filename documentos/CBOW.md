@@ -39,8 +39,7 @@ Considerando os tratamentos realizados no pré-processamento dos dados e a token
 
 
 ## Modelos de Classificação 
-
-[introduçao falando do udo de rede neural e naive bayes]
+Os modelos de classificação são amplamente utilizados em PLN para categorizar textos em diferentes classes ou rótulos e diante disso, utilizamos duas abordagens: o uso de redes neurais e o algoritmo Naive Bayes.
 
 ### Rede Neural
 
