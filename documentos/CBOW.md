@@ -29,7 +29,9 @@ O uso do Embedding Layer em conjunto com o modelo Word2Vec permite que o modelo 
 
 ### Método escolhido
 
-[Explicação das etapas e decisões tomadas na construção do modelo]
+Considerando os tratamentos realizados no pré-processamento dos dados e a tokenização, é possível utilizar a classe Dictionary da biblioteca genshin, criando um vocabulário a partir do mapeamento da cada palavra única, dando sequência para o treinamento de um modelo Word2Vec. Com isso, um DataFrame com os vetores das palavras é feito, e é possível exibr as palavras por similaridade.
+
+A partir da representação vetorial das palavras e palavras similares, é criada a relação semântica e contextual entre as palavras.
 
 ## Modelos de Classificação 
 
