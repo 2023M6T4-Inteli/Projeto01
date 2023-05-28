@@ -44,6 +44,10 @@ Considerando os tratamentos realizados no pré-processamento dos dados e a token
 
 ### Rede Neural
 
+O modelo de rede neural é uma abordagem de machine learning inspirada no funcionamento do cérebro humano. Ele é composto por vários neurônios que em conjunto, conseguem resolver determinado problema.
+Cada neurônio recebe um conjunto de entradas que são multiplicadas por seus pesos associados, e são esses pesos que determinam a importância de cada entrada para cada saída do neurônio.
+
+O treinamento desse modelo envolve a estimativa dos pesos dos neurônios com base no conjunto de dados de treinamento e sua maior vantagem é além de ter a capacidade de aprender automaticamente a partir dos dados sem projeção manual, ele lida com dados complexos e de alta dimensionalidade.
 
 Na sprint atual, fizemos uma rede neural que incorpora uma camada de embedding utilizando o Word2Vec. A camada de embedding mapeia as palavras para vetores densos, capturando relações semânticas e o contexto da palavra dentro da frase.
 Ao treinar a rede neural com a camada de embedding do Word2Vec, obtivemos os seguintes resultados. Alcançamos uma acurácia de 71% nos dados de teste após 30 épocas de treinamento com 50 camadas de entrada, 26 camadas oculta e uma camada de saída.
