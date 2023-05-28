@@ -44,7 +44,10 @@ Considerando os tratamentos realizados no pré-processamento dos dados e a token
 
 ### Rede Neural
 
-[Introdução]
+
+Na sprint atual, fizemos uma rede neural que incorpora uma camada de embedding utilizando o Word2Vec. A camada de embedding mapeia as palavras para vetores densos, capturando relações semânticas e o contexto da palavra dentro da frase.
+Ao treinar a rede neural com a camada de embedding do Word2Vec, obtivemos os seguintes resultados. Alcançamos uma acurácia de 71% nos dados de teste após 30 épocas de treinamento com 50 camadas de entrada, 26 camadas oculta e uma camada de saída.
+A utilização da camada de embedding Word2Vec proporcionou ao modelo a capacidade de capturar nuances semânticas e melhorar a representação das palavras nos comentários do Instagram do BTG. Essa abordagem ajudou a melhorar o desempenho do modelo em comparação com o uso do modelo Naive Bayes com BoW, demonstrando o potencial das técnicas de processamento de linguagem natural utilizadas nesta sprint.
 
 [método escolhido para aplicar modelo]
 
@@ -54,7 +57,12 @@ Considerando os tratamentos realizados no pré-processamento dos dados e a token
 
 ### Naive Bayes
 
-[Introdução]
+
+O modelo Naive Bayes é um classificador que utiliza a probabilidade do Teorema de Bayes, que assume a independência condicional entre os recursos (palavras) dada a classe (sentimento positivo, negativo ou neutro). Nesta sprint, aplicamos o modelo Naive Bayes utilizando o Bag of Words (BoW) para classificar os comentários.
+
+A escolha do modelo Naive Bayes com BoW é fundamentada na natureza estatística do Naive Bayes, no qual se enquadra bem o uso de BoW para mostrar a recorrência das palavras nos comentários. 
+
+O modelo Naive Bayes, então, utiliza o conjunto de recursos construído para calcular as probabilidades condicionais de um comentário pertencer a cada uma das categorias de sentimento (positivo, negativo ou neutro). Com base nessas probabilidades, o modelo atribui uma classe ao comentário.
 
 [método escolhido para aplicar modelo]
 
