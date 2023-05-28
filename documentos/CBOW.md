@@ -57,7 +57,14 @@ Esses vetores têm a capacidade de capturar informações semânticas e contextu
 
 ## Métricas utilizadas para avaliação dos resultados
 
-[acuracia e matriz de confusão]
+Para avaliar os modelos e comparar sua performance e desempenho, foram utilizadas duas métricas a partir dos resultados obtidos: Acurácia e a aplicação de uma matriz de confusão.
+Um exemplo de matriz de confusão pode ser visto a seguir:
+[imagem]
+Após a classificação dos elementos pela modelagem preditiva, os resultados da predição são colocados em quatro diferentes quadrantes. Na diagonal principal (em azul escuro) estão os valores corretamente preditos, com Verdadeiros Positivos (VP) e Verdadeiros Negativos (VN). Fora dessa diagonal se encontram os erros cometidos, os Falsos Positivos (FN) e Falsos Negativos(FN) (Franceschi, 2019).
+
+E a partir dos valores obtidos nos quadrantes, outras métricas podem ser extraídas, como a acurácia, com a seguinte fórmula:
+[imegem]
+A acurácia é uma métrica simples que utiliza a razão entre todos os acertos do modelo (Verdadeiros Positivos e Verdadeiros Negativos) sobre a quantidade total de elementos usados na predição, ou seja, VP somado com VN, FP e FN. E como a fórmula não utiliza um peso aplicado, é importante ressaltar que apenas utilizando a acurácia não é possível avaliar o desempenho dos modelos (Chen, et al, 2020).
 
 ## Resultados obtidos
 
@@ -82,3 +89,6 @@ Sendo assim, este vetor é gerado. Além de ser possível medir a similaridade e
 
 ## Referencias:
 http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
+CHEN, D., NIGRI, E., OLIVEIRA, G.,SEPULVENE, L., ALVES, T.: Métricas de Avaliação em Machine Learning: Classificação - Kunumi Blog, medium, 2020.
+
+FRANCESCHI, P, R.: Modelagens Preditivas de Churn: O Caso do Banco do Brasil, Universidade do Vale do Rio dos Sinos, 2019.
