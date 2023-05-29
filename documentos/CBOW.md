@@ -57,11 +57,7 @@ O treinamento desse modelo envolve a estimativa dos pesos dos neurônios com bas
 
 Na atual sprint, desenvolvemos uma rede neural que incorpora uma camada de embedding utilizando o Word2Vec. Essa camada de embedding mapeia as palavras para vetores densos, capturando relações semânticas e o contexto das palavras dentro das frases.
 
-[método escolhido para aplicar modelo]
-
-[explicações com linha de raciocínio de aplicação]
-
-[justificativa para uso de Rede Neural]
+As redes neurais são capazes de aprender representações complexas e não lineares a partir dos dados de treinamento, capturando as palavras e suas relações semânticas, o que justifica a sua aplicação neste projeto. Diferente do Naive Bayes, que depende de suposições prévias, as redes neurais possuem facilidade em aprender automaticamente, tornando também o processamento mais lento e complexo.
 
 ### Naive Bayes
 
@@ -71,11 +67,7 @@ A escolha do modelo Naive Bayes com BoW é baseada na natureza estatística do N
 
 O modelo Naive Bayes utiliza o conjunto de recursos construído para calcular as probabilidades condicionais de um comentário pertencer a cada uma das categorias de sentimento (positivo, negativo ou neutro). Com base nessas probabilidades, o modelo atribui uma classe ao comentário.
 
-[método escolhido para aplicar modelo]
-
-[explicações com linha de raciocínio de aplicação]
-
-[justificativa para uso do Naive bayes]
+A aplicação do Naive Bayes se justifica pela capacidade do modelo em lidar com grandes conjuntos de dados, por ser um modelo mais simples e requerer menos recursos de processamento, comportando tanto a abordagem de Bag of Words, quanto o Word2Vec, facilitando a escalabilidade do algoritmo com inputs diferentes, em comparação a classificadores mais complexos, como as redes neurais.
 
 ## Métricas utilizadas para avaliação dos resultados
 
