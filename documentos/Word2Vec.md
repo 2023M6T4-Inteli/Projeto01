@@ -87,7 +87,7 @@ As métricas de avaliação são fundamentais para comparar a performance e o de
 
 A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
 
-[Exemplo de matriz de confusão](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316)
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/matriz%20de%20confus%C3%A3o.png" alt = "matriz de confusão"  >
 
 A acurácia é uma métrica simples que calcula a proporção de acertos do modelo, representada pela soma dos verdadeiros positivos e verdadeiros negativos, dividida pelo total de elementos utilizados na predição (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos). No entanto, é importante destacar que a acurácia sozinha não é suficiente para avaliar completamente o desempenho dos modelos, pois não considera a distribuição das classes ou possíveis desequilíbrios no conjunto de dados (Chen, et al, 2020).
 
@@ -105,13 +105,13 @@ Matriz Rede Neural - Word2Vec
 | **451** 	| 1113 	|
 
 Dentre os três modelos utilizados - Naive Bayes com Bag of Words (BoW), Naive Bayes com Word2Vec e Rede Neural com Word2Vec -, apresentamos a seguir os resultados obtidos em cada um deles.
+O modelo Naive Bayes com Word2Vec obteve uma acurácia de 0.44, enquanto o modelo Naive Bayes com BoW alcançou uma acurácia de 0.71.
 
-O modelo Naive Bayes com Word2Vec obteve uma acurácia de 0.44, enquanto o modelo Naive Bayes com BoW alcançou uma acurácia de 0.65.
 Por fim, a Rede Neural com Word2Vec obteve uma acurácia de 0.63. Ao treinar a rede neural com a camada de embedding do Word2Vec, foi possível alcançar uma acurácia de 71% nos dados de teste após 30 épocas de treinamento, utilizando 50 camadas de entrada, 26 camadas ocultas e uma camada de saída.
-
 Essas informações fornecem uma visão geral dos resultados obtidos em cada modelo, permitindo uma comparação direta entre suas performances.
 
-[Colocar resultados de acurácia e matriz de confusão]
+Comparação entre os desenvolvidos modelos:
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/comparacaoModelo.png" alt = "matriz de confusão">
 
 ## Comparação com o modelo de Bag of Words (BoW)
 
@@ -121,7 +121,7 @@ Em geral, o uso de vetores de incorporação semântica, como no caso do Word2Ve
 
 Também é importante ressaltar que o modelo Bag of Words é mais simples e eficiente, pois requer apenas informações sobre a frequência das palavras. No entanto, devido à sua natureza de não considerar a ordem ou contexto das palavras, ele pode não ser tão preciso. Além disso, quando lidando com bancos de dados muito grandes, o modelo Bag of Words pode gerar um vocabulário extenso que demanda um processamento significativo para produzir resultados.
 
-Em contrapartida, o modelo Word2Vec, ao considerar a semântica e o contexto das palavras, tem maior facilidade em identificar palavras similares e estabelecer relações de analogia. Isso resulta em uma redução na dimensionalidade das representações das palavras em seu espaço vetorial, em comparação com o modelo Bag of Words. No entanto, por ser um modelo mais complexo, o Word2Vec requer mais poder de processamento e pode enfrentar dificuldades ao lidar com palavras que aparecem em poucas ocasiões.
+Em contrapartida, o  modelo Word2Vec, ao considerar a semântica e o contexto das palavras, tem maior facilidade em identificar palavras similares e estabelecer relações de analogia. Isso resulta em uma redução na dimensionalidade das representações das palavras em seu espaço vetorial, em comparação com o modelo Bag of Words. No entanto, por ser um modelo mais complexo, o Word2Vec requer mais poder de processamento e pode enfrentar dificuldades ao lidar com palavras que aparecem em poucas ocasiões.
 
 ## Conclusão 
 O modelo obteve sucesso ao fornecer os vetores correspondentes a cada frase inserida. Utilizou-se um modelo CBOW 50 pré-treinado, resultando em um vetor de 50 dimensões para cada frase.
