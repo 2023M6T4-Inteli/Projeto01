@@ -15,21 +15,23 @@ Acesso ao arquivo referente à entrega: [entendimento do negócio](https://githu
 
 Acesso ao arquivo referente à entrega: [entendimento da experiência do usuário](https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/documentos/EntendimentoUX.md). 
 
-## Modelo de Bag of Words (IPYNB)
+## Modelo de Bag of Words (IPYNB) - Sprint 2
 
 Acesso ao arquivo referente à entrega: [modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/src/notebook/ModeloPLN_grupo1_sprint2.ipynb). 
 
-## Documentação do Modelo de Bag of Words
+## Documentação do Modelo de Bag of Words - Sprint 2
 
-Acesso ao arquivo referente à entrega: [documentação do modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/Notebook.md)
+Acesso ao arquivo referente à entrega: [documentação do modelo de bag of words](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/Notebook.md).
 
-## (Sprint 3) Modelo utilizando Word2Vec (IPYNB)
+##  Modelo utilizando Word2Vec (IPYNB) - Sprint 3
+
+Acesso ao arquivo referente à entrega: [modelo de Word2Vec](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/src/notebook/ModeloPLN_grupo1_sprint3.ipynb).
+
+Acesso ao arquivo referente à entrega: [modelo de Word2Vec utilizando embedding layer](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/src/notebook/EmbeddingLayer_grupo1_sprint3.ipynb).
+
+## Documentação do Modelo utilizando Word2Vec - Sprint 3
 
 Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/CBOW.md)
-
-## (Sprint 3) Documentação do Modelo utilizando Word2Vec
-
-Preencher conforme a descrição do artefato na Adalove.
 
 ## (Sprint 4) Proposta de uma nova modelagem utilizando novas features (IPYNB)
 
