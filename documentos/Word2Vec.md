@@ -24,14 +24,13 @@ Por fim, realizamos a soma desses vetores, o que nos permite gerar um vetor repr
 ### Resultados obtidos
 Com a utilização desse modelo, foi possível obter a vetorização das palavras presentes nos comentários analisados, bem como a soma vetorial de palavras que possuem certa similaridade semântica. A utilização desse modelo no contexto de análise de sentimento pode trazer inúmeros benefícios e pretendemos explorá-los no decorrer da sprint 4. Dentre eles, é possível evidenciar a melhoria na representação de palavras, uma vez que esse modelo pode fornecer representações vetoriais mais ricas para as palavras, o que ajuda a capturar nuances e sutilezas nos sentimentos expressos por elas.
 A inicialização eficaz desse modelo foi fundamental para a construção dos modelos de aprendizado de máquina que foram desenvolvidos nesse período, tendo em vista que foram capazes de fornecer uma compreensão prévia das associações emocionais entre as palavras.
-.
+
 ## Modelo Word2Vec utilizando Embedding Layer
 O método Embedding Layer é utilizado para a representação vetorial de dados categóricos. Ao ser utilizado em conjunto, ele traz diversos benefícios, como lidar com a dimensionalidade variável dos dados, convertendo palavras de um vocabulário maior em vetores densos de comprimento fixo, que são menores do que os vetores de entrada. Isso facilita o processamento e a análise dos dados.
 
 Além disso, essa combinação melhora a generalização para palavras não vistas durante o treinamento. O modelo aprende a extrair informações contextuais e considerar as relações entre as palavras, o que permite inserir palavras ausentes no conjunto de treinamento com base em palavras semanticamente similares (Qi et al. 2018).
 
 Dessa forma, mesmo palavras que não estão presentes no conjunto de treinamento podem ser representadas e utilizadas com base em palavras semelhantes, o que enriquece o modelo e sua capacidade de processar dados de linguagem natural.
-
 
 ### Método escolhido
 
@@ -55,7 +54,7 @@ Uma vez treinado, o modelo Word2Vec produz vetores densos para cada palavra. Ess
 
 ### Resultados obtidos
 A construção desse modelo permitiu a obtenção de uma acurácia de 0.65 a partir de um treinamento realizado 50 vezes (definido pelo número de epochs do modelo). O números de epochs foi ajustado durante o treinamento para encontrar um equilíbrio entre o desempenho do modelo e o tempo de treinamento. 
- Com essa abordagem, as palavras são representadas por vetores densos, capturando relações semânticas e sintáticas. Isso melhora a compreensão do significado e contexto das palavras. Os benefícios incluem a capacidade de calcular a similaridade entre palavras, agrupar palavras relacionadas, analisar sentimentos e recomendar palavras relacionadas. Além disso, esses vetores podem ser aplicados em tradução automática para melhorar a fluência das traduções.
+Com essa abordagem, as palavras são representadas por vetores densos, capturando relações semânticas e sintáticas. Isso melhora a compreensão do significado e contexto das palavras. Os benefícios incluem a capacidade de calcular a similaridade entre palavras, agrupar palavras relacionadas, analisar sentimentos e recomendar palavras relacionadas. Além disso, esses vetores podem ser aplicados em tradução automática para melhorar a fluência das traduções.
 
 ## Modelos de Classificação 
 Os modelos de classificação são amplamente utilizados no Processamento de Linguagem Natural (PLN) para categorizar textos em diferentes classes ou rótulos. Nesse sentido, utilizamos duas abordagens: redes neurais e o algoritmo Naive Bayes.
@@ -84,23 +83,19 @@ A aplicação do Naive Bayes se justifica pela capacidade do modelo em lidar com
 
 ## Métricas utilizadas para avaliação dos resultados
 
-As métricas de avaliação são fundamentais para comparar a performance e o desempenho dos modelos utilizados. Nesse contexto, após obter os resultados dos modelos, foi gerada uma matriz de confusão para avaliar o desempenho.
+As métricas de avaliação são fundamentais para comparar a performance e o desempenho dos modelos utilizados. Nesse contexto, após obter os resultados dos modelos, foi gerada uma matriz de confusão para avaliar o desempenho (Franceschi, 2019).
 
 A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
 
 [Exemplo de matriz de confusão](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316)
 
-As métricas de avaliação são fundamentais para comparar a performance e o desempenho dos modelos utilizados. Nesse contexto, após obter os resultados dos modelos, foi gerada uma matriz de confusão para avaliar o desempenho (Franceschi, 2019).
-
-A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
+A acurácia é uma métrica simples que calcula a proporção de acertos do modelo, representada pela soma dos verdadeiros positivos e verdadeiros negativos, dividida pelo total de elementos utilizados na predição (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos). No entanto, é importante destacar que a acurácia sozinha não é suficiente para avaliar completamente o desempenho dos modelos, pois não considera a distribuição das classes ou possíveis desequilíbrios no conjunto de dados (Chen, et al, 2020).
 
 $$
 \begin{align}
 Acurácia={Verdadeiros Positivos \over Total}
 \end{align}
 $$
-
-A acurácia é uma métrica simples que calcula a proporção de acertos do modelo, representada pela soma dos verdadeiros positivos e verdadeiros negativos, dividida pelo total de elementos utilizados na predição (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos). No entanto, é importante destacar que a acurácia sozinha não é suficiente para avaliar completamente o desempenho dos modelos, pois não considera a distribuição das classes ou possíveis desequilíbrios no conjunto de dados (Chen, et al, 2020).
 
 ## Resultados obtidos
 
