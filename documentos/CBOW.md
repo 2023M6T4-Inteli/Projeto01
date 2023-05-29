@@ -83,12 +83,17 @@ As métricas de avaliação são fundamentais para comparar a performance e o de
 
 A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
 
-[imagem]
+[Exemplo de matriz de confusão](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316)
+
 As métricas de avaliação são fundamentais para comparar a performance e o desempenho dos modelos utilizados. Nesse contexto, após obter os resultados dos modelos, foi gerada uma matriz de confusão para avaliar o desempenho (Franceschi, 2019).
 
 A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
 
-[imagem]
+$$
+\begin{align}
+Acurácia={Verdadeiros Positivos \over Total}
+\end{align}
+$$
 
 A acurácia é uma métrica simples que calcula a proporção de acertos do modelo, representada pela soma dos verdadeiros positivos e verdadeiros negativos, dividida pelo total de elementos utilizados na predição (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos). No entanto, é importante destacar que a acurácia sozinha não é suficiente para avaliar completamente o desempenho dos modelos, pois não considera a distribuição das classes ou possíveis desequilíbrios no conjunto de dados (Chen, et al, 2020).
 
