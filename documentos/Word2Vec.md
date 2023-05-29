@@ -43,6 +43,19 @@ No caso de embeddings aprendidos, o modelo pode ser treinado para prever sentime
 
 Ao realizar o pré-processamento dos dados e a tokenização, é possível criar um vocabulário que mapeia cada palavra única, possibilitando o treinamento de um modelo Word2Vec com camadas de embedding. Isso resulta em um DataFrame com os vetores das palavras, permitindo a exibição de palavras por similaridade. Essa representação vetorial das palavras e a identificação de palavras similares criam relações semânticas e contextuais entre elas.
 
+### Construção e execução do modelo
+
+O raciocínio por trás do modelo Word2Vec baseia-se na ideia de que palavras com significados semelhantes aparecem em contextos semelhantes. O modelo aprende representações vetoriais (embeddings) para cada palavra, de modo que palavras semanticamente relacionadas fiquem próximas umas das outras no espaço vetorial.
+
+Para treinar o modelo, normalmente é utilizado um grande corpus de texto. O algoritmo Word2Vec utiliza duas abordagens principais: o Skip-gram e o Continuous Bag of Words (CBOW).
+
+No método Skip-gram, o objetivo é prever as palavras de contexto (as palavras ao redor de uma palavra-alvo) com base na palavra-alvo. Já no método CBOW, o objetivo é prever a palavra-alvo com base nas palavras de contexto. O modelo ajusta os pesos das conexões entre as palavras, de forma a maximizar a probabilidade de prever corretamente as palavras de contexto.
+
+Uma vez treinado, o modelo Word2Vec produz vetores densos para cada palavra. Esses vetores podem ser usados para várias tarefas de processamento de linguagem natural, como classificação de sentimentos, agrupamento de documentos, identificação de tópicos, entre outros. Além disso, os vetores podem ser utilizados para calcular similaridade entre palavras, permitindo a realização de buscas semânticas e identificação de relações entre termos.
+
+### Resultados obtidos
+A construção desse modelo permitiu a obtenção de uma acurácia de 0.65 a partir de um treinamento realizado 50 vezes (definido pelo número de epochs do modelo). O números de epochs foi ajustado durante o treinamento para encontrar um equilíbrio entre o desempenho do modelo e o tempo de treinamento. 
+ Com essa abordagem, as palavras são representadas por vetores densos, capturando relações semânticas e sintáticas. Isso melhora a compreensão do significado e contexto das palavras. Os benefícios incluem a capacidade de calcular a similaridade entre palavras, agrupar palavras relacionadas, analisar sentimentos e recomendar palavras relacionadas. Além disso, esses vetores podem ser aplicados em tradução automática para melhorar a fluência das traduções.
 
 ## Modelos de Classificação 
 Os modelos de classificação são amplamente utilizados no Processamento de Linguagem Natural (PLN) para categorizar textos em diferentes classes ou rótulos. Nesse sentido, utilizamos duas abordagens: redes neurais e o algoritmo Naive Bayes.
