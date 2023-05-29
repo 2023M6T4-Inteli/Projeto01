@@ -91,6 +91,11 @@ A acurácia é uma métrica simples que calcula a proporção de acertos do mode
 
 ## Resultados obtidos
 
+Matriz Rede Neural - Word2Vec
+| **883** 	| 628 	|
+|---	|---	|
+| **451** 	| 1113 	|
+
 Dentre os três modelos utilizados - Naive Bayes com Bag of Words (BoW), Naive Bayes com Word2Vec e Rede Neural com Word2Vec -, apresentamos a seguir os resultados obtidos em cada um deles.
 
 O modelo Naive Bayes com Word2Vec obteve uma acurácia de 0.44, enquanto o modelo Naive Bayes com BoW alcançou uma acurácia de 0.65.
