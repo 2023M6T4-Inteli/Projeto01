@@ -110,11 +110,6 @@ Também é importante ressaltar que o modelo Bag of Words é mais simples e efic
 
 Em contrapartida, o modelo Word2Vec, ao considerar a semântica e o contexto das palavras, tem maior facilidade em identificar palavras similares e estabelecer relações de analogia. Isso resulta em uma redução na dimensionalidade das representações das palavras em seu espaço vetorial, em comparação com o modelo Bag of Words. No entanto, por ser um modelo mais complexo, o Word2Vec requer mais poder de processamento e pode enfrentar dificuldades ao lidar com palavras que aparecem em poucas ocasiões.
 
-[Apresentar resultados sprint anterior]
-
-[comparar resultados sprint anterior com essa sprint]
-
-
 ## Conclusão 
 O modelo obteve sucesso ao fornecer os vetores correspondentes a cada frase inserida. Utilizou-se um modelo CBOW 50 pré-treinado, resultando em um vetor de 50 dimensões para cada frase.
 
@@ -122,7 +117,9 @@ Esses vetores gerados permitem medir a similaridade entre as frases, sendo poss�
 
 A inclusão da camada de embedding Word2Vec proporcionou ao modelo a capacidade de capturar nuances semânticas e melhorar a representação das palavras presentes nos comentários do Instagram do BTG. Essa abordagem contribuiu para o aprimoramento do desempenho do modelo, em comparação com o uso do modelo Naive Bayes com BoW, evidenciando o potencial das técnicas de processamento de linguagem natural empregadas nesta etapa do projeto.
 
-[Colocar mais conclusao também as análises do cliente na apresentação]
+É importante destacar que outras métricas para avaliação que usam os valores obtidos na matriz de confusão, como precisão e revocação, também são importantes, pois a acurácia pode não apresentar o real desempenho, por si só, dos resultados obtidos pelos modelos.
+
+Também é importante otimizar e ajustar os modelos de classificação utilizados, adicionando hiperparâmetros e separando também dados de treinamento e teste específicos para os modelos, evitando tornar os modelos enviesados, por exemplo, ou apresentando overfitting.
 
 ## Referencias:
 http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc
