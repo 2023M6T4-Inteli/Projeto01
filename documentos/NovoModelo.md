@@ -77,13 +77,14 @@ $$
 
 ### Matriz de confusão
 
+A matriz de confusão (figura 1) é uma tabela que apresenta o desempenho de um modelo em um conjunto de dados, que classifica os elementos pela modelagem preditiva. Ela é utilizada para avaliar a precisão das previsões do modelo de classificação por meio de uma comparação com os valores reais dos dados. Os resultados da predição são colocados em diferentes quadrantes:  na diagonal principal estão os valores corretamente preditos e fora dessa diagonal, se encontram os erros cometidos. 
+
+A matriz fornece uma representação visual da performance do modelo e por meio da identificação de erros e padrões cometidos pelo modelo, sua análise permite o ajuste e a melhora de seu desempenho.
+
 <img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/matriz%20de%20confus%C3%A3o.png" alt = "matriz de confusão"  width = "400px" height="400px" >
 <!-- ![colocar imagem exemplo](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316) -->
 
 Figura 1. Exemplo de Matriz de confusão.
-
-
-A matriz de confusão é uma tabela que apresenta o desempenho de um modelo, que classifica os elementos pela modelagem preditiva. Os resultados da predição são colocados em diferentes quadrantes. Na diagonal principal  estão os valores corretamente preditos. Fora dessa diagonal se encontram os erros cometidos.
 
 
 ## Resultados
