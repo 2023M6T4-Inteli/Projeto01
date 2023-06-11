@@ -33,12 +33,17 @@ Uma técnica que pode ser utilizada para realizar a otimização de hiperparâme
 É importante dizer que colocar um limite de configurações que o Grid Search realiza é importante para reduzir o tempo de execução do modelo, pois pode levar um tempo muito elevado e o desempenho não mudar, por algum problema na base de dados ou na pipeline dos dados, por exemplo, reduzindo a eficiência do Grid Search.
 
 
-#### Novo tipo de Vetorização por Transformers
-[explicação do transformers]
+## Rede Neural com Vetorização por Transformers
+[explicação do que é transformers]
 
-### Métricas
+### Método escolhido:
+[explicação da criação/execução/hiperparametros do transformers]
 
-- Acurácia
+
+## Métricas
+
+### Acurácia
+
   - A acurácia é uma métrica simples que utiliza a razão entre todos os acertos do modelo (Verdadeiros Positivos e Verdadeiros Negativos) sobre a quantidade total de elementos usados na predição, ou seja, Verdadeiros Positivos somado com Verdadeiros Negativos, Falsos Positivos e Falsos Negativos.
  
 <!-- ![formula acuracia](https://github.com/2023M6T4-Inteli/Projeto01/assets/99202408/a137bb75-f2af-4fc6-bad8-696d75bd671d) -->
@@ -49,7 +54,8 @@ Acurácia={Verdadeiros Positivos + Verdadeiros Negativos \over Verdadeiros Posit
 \end{align}
 $$
   
-- Revocação
+### Revocação
+
   - A revocação  é uma métrica que avalia a capacidade de um modelo em identificar corretamente os exemplos positivos em relação ao total de exemplos positivos presentes nos dados,
 ela é calculada dividindo o número de Verdadeiros Positivos pela soma dos Verdadeiros Positivos com os Falsos Negativos. 
 <!-- 
@@ -69,7 +75,7 @@ $$
 ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99202408/dfdf8dad-37ee-4de4-bef2-7dd8fcc5245c) -->
 
 
-- Matriz de confusão
+### Matriz de confusão
 
 <img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/matriz%20de%20confus%C3%A3o.png" alt = "matriz de confusão"  width = "400px" height="400px" >
 <!-- ![colocar imagem exemplo](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316) -->
@@ -79,14 +85,6 @@ Figura 1. Exemplo de Matriz de confusão.
 
 A matriz de confusão é uma tabela que apresenta o desempenho de um modelo, que classifica os elementos pela modelagem preditiva. Os resultados da predição são colocados em diferentes quadrantes. Na diagonal principal  estão os valores corretamente preditos. Fora dessa diagonal se encontram os erros cometidos.
 
-### Critérios para escolha do modelo de modelagem preditiva
-É importante definir os critérios para a escolha do modelo mais adequado ao problema proposto neste projeto, e para isso, é necessário considerar o valor mais relevante das métricas utilizadas, ressaltando que a métrica mais relevante pode variar, de acordo com a classe mais importante a ser classificada de forma correta, levando em conta qual tipo de erro da predição pode ser mais prejudicial ao usuário que irá utilizar a solução desenvolvida neste projeto.
-
-Dentre as três classes de categorias de sentimentos, Positivo, Neutro e Negativo, o sentimento mais importante de ser identificado de forma correta é o Negativo, pelo impacto que elementos dessa classe podem apresentar ao usuário do sistema desenvolvido. Sendo assim, o erro mais crítico é o de Falsos Negativos, que podem passar desapercebidos como sendo de outras classes, enquanto é na verdade da classe Negativo.
-
-Analisar este cenário, é desejável utilizar o modelo que apresenta um alto índice de revocação, ou seja, que mais corretamente identificam elementos como sendo da classe Negativo, reduzindo assim o número de Falsos Negativos. Sendo essa a principal métrica de avaliação para o critério de escolha do modelo com base nos resultados obtidos.
-
-Também é importante destacar que, ao confrontar os resultados dos modelos, seja levado em consideração o modelo com acurácia mais alta, além da revocação, e o tipo de vetorização que o modelo melhor se desempenhou. A combinação desses critérios indicará o modelo mais adequado para o projeto.
 
 ## Resultados
 [Texto introdutório sobre os resultados]
@@ -213,6 +211,15 @@ O modelo SVM apresentou uma acurácia e revocação de aproximadamente 45%, com 
 ![image](https://github.com/2023M6T4-Inteli/Projeto01/assets/99202408/66ff0ebc-523e-4cdf-86fa-b7354d529e2f)
  -->
 # Modelo escolhido :
+
+### Critérios para escolha do modelo de modelagem preditiva
+É importante definir os critérios para a escolha do modelo mais adequado ao problema proposto neste projeto, e para isso, é necessário considerar o valor mais relevante das métricas utilizadas, ressaltando que a métrica mais relevante pode variar, de acordo com a classe mais importante a ser classificada de forma correta, levando em conta qual tipo de erro da predição pode ser mais prejudicial ao usuário que irá utilizar a solução desenvolvida neste projeto.
+
+Dentre as três classes de categorias de sentimentos, Positivo, Neutro e Negativo, o sentimento mais importante de ser identificado de forma correta é o Negativo, pelo impacto que elementos dessa classe podem apresentar ao usuário do sistema desenvolvido. Sendo assim, o erro mais crítico é o de Falsos Negativos, que podem passar desapercebidos como sendo de outras classes, enquanto é na verdade da classe Negativo.
+
+Analisar este cenário, é desejável utilizar o modelo que apresenta um alto índice de revocação, ou seja, que mais corretamente identificam elementos como sendo da classe Negativo, reduzindo assim o número de Falsos Negativos. Sendo essa a principal métrica de avaliação para o critério de escolha do modelo com base nos resultados obtidos.
+
+Também é importante destacar que, ao confrontar os resultados dos modelos, seja levado em consideração o modelo com acurácia mais alta, além da revocação, e o tipo de vetorização que o modelo melhor se desempenhou. A combinação desses critérios indicará o modelo mais adequado para o projeto.
 
 ## Referências
 
