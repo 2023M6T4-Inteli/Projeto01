@@ -53,7 +53,7 @@ $$
   - A revocação  é uma métrica que avalia a capacidade de um modelo em identificar corretamente os exemplos positivos em relação ao total de exemplos positivos presentes nos dados,
 ela é calculada dividindo o número de Verdadeiros Positivos pela soma dos Verdadeiros Positivos com os Falsos Negativos. 
 <!-- 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/assets/99538889/85c8486f-da84-4967-93db-98175782f866" alt = "formula revocacao"  >
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/assets/99538889/85c8486f-da84-4967-93db-98175782f866" alt = "formula revocacao">
 
 ![formula_revocacao](https://github.com/2023M6T4-Inteli/Projeto01/assets/99538889/85c8486f-da84-4967-93db-98175782f866) -->
 $$
@@ -71,7 +71,7 @@ $$
 
 - Matriz de confusão
 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/matriz%20de%20confus%C3%A3o.png" alt = "matriz de confusão"  >
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/matriz%20de%20confus%C3%A3o.png" alt = "matriz de confusão"  width = "400px" height="400px" >
 <!-- ![colocar imagem exemplo](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316) -->
 
 Figura 1. Exemplo de Matriz de confusão.
