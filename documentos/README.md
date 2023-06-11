@@ -35,7 +35,7 @@ Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](h
 
 ## Documentação dos resultados dos modelos - Sprint 4
 
-Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/Resultados.md)
+Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/NovoModelo.md)
 
 ## (Sprint 4) Proposta de uma nova modelagem utilizando novas features (IPYNB)
 
