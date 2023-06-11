@@ -4,7 +4,19 @@
 
 <img width="483" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/ed577911-1f31-4b83-bced-72dd05a3bc83">
 
+A arquitetura do sistema tem como objetivo fornecer uma representação visual de como a solução funciona, desde a origem dos dados até a obtenção do resultado desejado. Utilizamos técnicas como vetorização, codificação e seleção de features para alcançar esse objetivo.
 
+A origem dos dados é atualmente proveniente de uma planilha em formato Excel, fornecida pelo BTG.
+
+Durante a fase de análise descritiva, extraímos metadados relevantes dos dados. Isso nos ajuda a entender melhor a natureza e as características dos dados em questão.
+
+No pré-processamento dos dados, realizamos diversas tarefas para facilitar a vetorização ou a transformação dos dados em uma matriz adequada para o treinamento do modelo. Isso pode incluir a normalização dos dados, tratamento de valores ausentes, remoção de ruídos, entre outras técnicas.
+
+A criação do modelo envolve a definição da arquitetura do modelo, escolha dos algoritmos adequados, seleção de hiperparâmetros e divisão dos dados em conjuntos de treinamento, validação e teste. Essa etapa é fundamental para desenvolver um modelo que seja capaz de aprender padrões e fazer previsões precisas.
+
+Após a criação do modelo, é necessário treiná-lo com os dados disponíveis. Isso envolve a alimentação dos dados de treinamento no modelo e o ajuste dos parâmetros para otimizar o desempenho. O treinamento pode ser iterativo e exigir várias rodadas até que o modelo atinja uma precisão satisfatória.
+
+Por fim, o serviço é disponibilizado por meio de um dashboard, que permite aos usuários visualizar os resultados de forma clara e compreensível. O dashboard pode fornecer métricas, gráficos e insights relevantes para auxiliar nas tomadas de decisão pelo colaborador de marketing do BTG.
 
 ## Metodologia
 Nesta seção do documento serão abordados os principais tópicos relacionados ao desenvolvimento e métricas de avaliação dos modelos preditivos, bem como a introdução do modelo escolhido para confrontar os modelos desenvolvidos em sprints anteriores, sendo este o Support Vector Machine.
