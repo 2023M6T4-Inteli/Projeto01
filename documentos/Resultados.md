@@ -5,6 +5,11 @@
 
 ## Metodologia
 [introdução às metricas e hiperparametros e como será a escolha do melhor modelo]
+
+### Modelo Support Vector Machine (SVM)
+Modelo muito utilizado para classificação de dados, o SVM cria um limite de decisão entre duas ou mais classes no modelo, e rotula assim a predição de um ou mais vetores de características. Esse limite, conhecido como hiperplano, dispõe uma orientação que calcula a maior distância entre os pontos de dados mais próximos, sendo esses os vetores de suporte do modelo.
+
+
 ### Metricas
 
 - Acúracia
