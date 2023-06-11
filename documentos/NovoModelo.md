@@ -1,7 +1,10 @@
 # Documentação de proposta de uma nova modelagem
 
 ## Introdução
-[Texto falando sobre a sprint com os objetivos]
+
+<img width="483" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/ed577911-1f31-4b83-bced-72dd05a3bc83">
+
+
 
 ## Metodologia
 Nesta seção do documento serão abordados os principais tópicos relacionados ao desenvolvimento e métricas de avaliação dos modelos preditivos, bem como a introdução do modelo escolhido para confrontar os modelos desenvolvidos em sprints anteriores, sendo este o Support Vector Machine.
