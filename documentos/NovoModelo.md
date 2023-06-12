@@ -20,8 +20,6 @@ Uma vez que o modelo é criado, é necessário treiná-lo com os dados disponív
 
 Por fim, o serviço é disponibilizado através de um dashboard intuitivo, que proporciona aos usuários uma visualização clara e compreensível dos resultados. O dashboard é capaz de fornecer métricas, gráficos e insights relevantes, auxiliando o colaborador de marketing do BTG a tomar decisões embasadas e estratégicas com base nas informações geradas pela solução.
 
-Em suma, a arquitetura da solução desempenha um papel crucial na implementação de um sistema proporcionando uma estrutura eficiente e sólida para a realização de análises e a tomada de decisões inteligentes no contexto de Análise de Sentimento dos comentários do Instagram do BTG Pactual.
-
 ## Metodologia
 Nesta seção do documento serão abordados os principais tópicos relacionados ao desenvolvimento e métricas de avaliação dos modelos preditivos, bem como a introdução do modelo escolhido para confrontar os modelos desenvolvidos em sprints anteriores, sendo este o Support Vector Machine.
 Também serão exploradas as otimizações realizadas nos modelos, sejam por hiperparâmetros ou outros tipos de vetorização de palavras para o processamento de linguagem natural.
@@ -56,16 +54,14 @@ Uma técnica que pode ser utilizada para realizar a otimização de hiperparâme
 
 O modelo de Rede Neural Recorrente (RNN) é um tipo de classificador que usa a arquitetura Transformer para entender melhor as sentenças. Essa técnica considera a ordem das palavras nas sentenças ou documentos.
 
-Escolhemos usar a RNN com o Transformer porque a RNN é boa em lidar com sequências, e o Transformer é ótimo para entender como as palavras nas sentenças se relacionam umas com as outras, o que é muito importante para entender o texto.
+Foi escolhido usar a RNN com o Transformer porque a RNN é boa em lidar com sequências, e o Transformer é ótimo para entender como as palavras nas sentenças se relacionam umas com as outras, o que é muito importante para entender o texto.
 
-Para melhorar a nossa análise, usamos uma outra rede neural para entender o sentimento dos textos. Isso nos ajuda a olhar os dados de uma maneira mais completa, considerando todo o contexto para classificar o sentimento (se é positivo, negativo ou neutro).
+Para melhorar a nossa análise, foi utilizada uma outra rede neural para entender o sentimento dos textos. Isso nos ajuda a olhar os dados de uma maneira mais completa, considerando todo o contexto para classificar o sentimento (se é positivo, negativo ou neutro).
 
-Usamos o modelo RNN porque ele é bom em lidar com a complexidade e a ordem das palavras encontradas em muitos textos. Mesmo sendo um modelo mais complicado e que precisa de mais recursos para processar os dados, a RNN trabalha bem com o Transformer para entender melhor as sentenças. Isso ajuda o algoritmo a lidar com muitos tipos diferentes de entradas e a entender melhor o contexto e o significado das sentenças, em comparação a classificadores mais simples, como o Naive Bayes. Usamos uma segunda rede neural para classificar o sentimento usando as informações fornecidas pelo Transformer.
+Foi usado o modelo RNN porque ele é bom em lidar com a complexidade e a ordem das palavras encontradas em muitos textos. Mesmo sendo um modelo mais complicado e que precisa de mais recursos para processar os dados, a RNN trabalha bem com o Transformer para entender melhor as sentenças. Isso ajuda o algoritmo a lidar com muitos tipos diferentes de entradas e a entender melhor o contexto e o significado das sentenças, em comparação a classificadores mais simples, como o Naive Bayes. Usamos uma segunda rede neural para classificar o sentimento usando as informações fornecidas pelo Transformer.
 
 
-### Conclusão Rede Neural com Sentence Trasformers
-
-Em conclusão, a implementação da Rede Neural Recorrente juntamente com a arquitetura Transformer, e a adição de uma segunda rede neural para a classificação de sentimentos, parece ter influenciado positivamente os resultados da análise de sentimentos. Essa observação se apoia tanto em resultados quantitativos obtidos na fase de teste, quanto em alguns exemplos qualitativos notáveis.
+A implementação da Rede Neural Recorrente juntamente com a arquitetura Transformer, e a adição de uma segunda rede neural para a classificação de sentimentos, parece ter influenciado positivamente os resultados da análise de sentimentos. Essa observação se apoia tanto em resultados quantitativos obtidos na fase de teste, quanto em alguns exemplos qualitativos notáveis.
 
 A complexidade desses modelos proporcionou uma oportunidade para explorar as nuances do sentimento nos textos de forma mais detalhada, possibilitando um entendimento mais aprofundado do contexto e da semântica das sentenças. Isto parece ter levado a uma classificação de sentimento mais precisa e minuciosa, indicando o potencial que tais métodos avançados de modelagem de linguagem natural podem ter.
 
@@ -257,8 +253,6 @@ Dentre as três classes de categorias de sentimentos, Positivo, Neutro e Negativ
 Analisar este cenário, é desejável utilizar o modelo que apresenta um alto índice de revocação, ou seja, que mais corretamente identificam elementos como sendo da classe Negativo, reduzindo assim o número de Falsos Negativos. Sendo essa a principal métrica de avaliação para o critério de escolha do modelo com base nos resultados obtidos.
 
 Também é importante destacar que, ao confrontar os resultados dos modelos, seja levado em consideração o modelo com acurácia mais alta, além da revocação, e o tipo de vetorização que o modelo melhor se desempenhou. A combinação desses critérios indicará o modelo mais adequado para o projeto.
-
-### Conclusão:
 
 Após considerar os critérios estabelecidos, o modelo escolhido para a modelagem preditiva foi a Rede Neural com vetorização do tipo Transformers de sentença. Esse modelo se destacou por sua capacidade de capturar o contexto das palavras e por sua complexidade, levando em consideração as relações entre elas.
 
