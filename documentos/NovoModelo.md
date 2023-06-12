@@ -47,6 +47,13 @@ Uma técnica que pode ser utilizada para realizar a otimização de hiperparâme
 
 É importante dizer que colocar um limite de configurações que o Grid Search realiza é importante para reduzir o tempo de execução do modelo, pois pode levar um tempo muito elevado e o desempenho não mudar, por algum problema na base de dados ou na pipeline dos dados, por exemplo, reduzindo a eficiência do Grid Search.
 
+### Novas features
+A fim de otimizar o modelo, pensamos em novas features que poderiam ser criadas para aprimorar os resultados obtidos com esse desenvolvimento. Uma das hipóteses que observamos foi a de que comentários negativos eram, em sua maioria, mais longos que comentários mais curtos. Existem muitos comentários contendo somente emojis que são comentários positivos (como emojis repetidos de coração azul), enquanto que, diante das nossas observações, as reclamações possuem um maior número de caracteres.
+Diante disso, criamos a feature de número de caracteres por comentários e cruzamos com alguns modelos.
+
+A adição dessa nova feature diminuiu as métricas dos modelos em todos os casos em que foi adicionada. No modelo Naive Bayes com word2vec, a feature de número de caracteres diminuiu a acurácia para 31%, uma mudança muito drástica, visto que, de modo geral, essa métrica estava em torno de 40% e 50%. Para essa entrega, então, abrimos mão da implementação dessa feature por não ter causado impacto positivo em nossos modelos.
+
+No futuro, é importante continuar explorando diferentes abordagens e testando combinações variadas de features para encontrar a configuração mais adequada ao problema. Contudo, diante do tempo curto dessa sprint e do fato de que tínhamos uma nova codificação de díficil implementação, que foi o desenvolvimento da rede neural com sentence tranformers, optamos por não implementar a feature desenvolvida.
 
 ## Rede Neural com Sentence Transformers
 
