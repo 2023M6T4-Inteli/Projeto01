@@ -9,6 +9,13 @@ O Word2Vec é um algoritmo de Machine Learning amplamente utilizado em processam
 
 A fim de obter representações vetoriais de palavras mais precisas, optamos por utilizar um modelo Word2Vec pré-treinado. Através de um treinamento extensivo em grandes conjuntos de dados, o modelo é capaz de capturar relações semânticas com base nas ocorrências e contextos das palavras dentro do corpus de treinamento. Isso resulta em um conhecimento prévio rico e maior precisão nas aplicações de Processamento de Linguagem Natural (PLN).
 
+## Modelo Word2Vec com Skipgram
+
+Escolhemos testar o Modelo Word2Vec com SkipGram porque ele tem a capacidade de capturar relacionamentos contextuais entre palavras em um texto. Ele pode aprender a representar palavras com base em seu contexto, permitindo que palavras semanticamente e sintaticamente relacionadas sejam mapeadas para pontos próximos no espaço vetorial.
+
+ A ideia do Skipgram é treinar uma rede neural para aprender vetores de palavras, onde cada palavra é representada por um vetor denso de valores reais. O tamanho desses vetores é conhecido como dimensão de embedding e é um hiperparâmetro definido pelo usuário.O objetivo é encontrar os melhores vetores de palavras que capturem as relações semânticas e sintáticas presentes no corpus de treinamento. 
+
+
 ### Método escolhido
 O Método escolhido foi o Continuos Bag of Words (CBOW) por ter como objetivo a previsão de uma palavra alvo com base em seu contexto.Diferente do método Skip-gram, que prevê o contexto a partir de uma palavra-alvo, o CBOW considera múltiplas palavras em um contexto específico para fazer a previsão da palavra de destino.
 
@@ -24,14 +31,13 @@ Por fim, realizamos a soma desses vetores, o que nos permite gerar um vetor repr
 ### Resultados obtidos
 Com a utilização desse modelo, foi possível obter a vetorização das palavras presentes nos comentários analisados, bem como a soma vetorial de palavras que possuem certa similaridade semântica. A utilização desse modelo no contexto de análise de sentimento pode trazer inúmeros benefícios e pretendemos explorá-los no decorrer da sprint 4. Dentre eles, é possível evidenciar a melhoria na representação de palavras, uma vez que esse modelo pode fornecer representações vetoriais mais ricas para as palavras, o que ajuda a capturar nuances e sutilezas nos sentimentos expressos por elas.
 A inicialização eficaz desse modelo foi fundamental para a construção dos modelos de aprendizado de máquina que foram desenvolvidos nesse período, tendo em vista que foram capazes de fornecer uma compreensão prévia das associações emocionais entre as palavras.
-.
+
 ## Modelo Word2Vec utilizando Embedding Layer
 O método Embedding Layer é utilizado para a representação vetorial de dados categóricos. Ao ser utilizado em conjunto, ele traz diversos benefícios, como lidar com a dimensionalidade variável dos dados, convertendo palavras de um vocabulário maior em vetores densos de comprimento fixo, que são menores do que os vetores de entrada. Isso facilita o processamento e a análise dos dados.
 
 Além disso, essa combinação melhora a generalização para palavras não vistas durante o treinamento. O modelo aprende a extrair informações contextuais e considerar as relações entre as palavras, o que permite inserir palavras ausentes no conjunto de treinamento com base em palavras semanticamente similares (Qi et al. 2018).
 
 Dessa forma, mesmo palavras que não estão presentes no conjunto de treinamento podem ser representadas e utilizadas com base em palavras semelhantes, o que enriquece o modelo e sua capacidade de processar dados de linguagem natural.
-
 
 ### Método escolhido
 
@@ -55,7 +61,7 @@ Uma vez treinado, o modelo Word2Vec produz vetores densos para cada palavra. Ess
 
 ### Resultados obtidos
 A construção desse modelo permitiu a obtenção de uma acurácia de 0.65 a partir de um treinamento realizado 50 vezes (definido pelo número de epochs do modelo). O números de epochs foi ajustado durante o treinamento para encontrar um equilíbrio entre o desempenho do modelo e o tempo de treinamento. 
- Com essa abordagem, as palavras são representadas por vetores densos, capturando relações semânticas e sintáticas. Isso melhora a compreensão do significado e contexto das palavras. Os benefícios incluem a capacidade de calcular a similaridade entre palavras, agrupar palavras relacionadas, analisar sentimentos e recomendar palavras relacionadas. Além disso, esses vetores podem ser aplicados em tradução automática para melhorar a fluência das traduções.
+Com essa abordagem, as palavras são representadas por vetores densos, capturando relações semânticas e sintáticas. Isso melhora a compreensão do significado e contexto das palavras. Os benefícios incluem a capacidade de calcular a similaridade entre palavras, agrupar palavras relacionadas, analisar sentimentos e recomendar palavras relacionadas. Além disso, esses vetores podem ser aplicados em tradução automática para melhorar a fluência das traduções.
 
 ## Modelos de Classificação 
 Os modelos de classificação são amplamente utilizados no Processamento de Linguagem Natural (PLN) para categorizar textos em diferentes classes ou rótulos. Nesse sentido, utilizamos duas abordagens: redes neurais e o algoritmo Naive Bayes.
@@ -84,23 +90,19 @@ A aplicação do Naive Bayes se justifica pela capacidade do modelo em lidar com
 
 ## Métricas utilizadas para avaliação dos resultados
 
-As métricas de avaliação são fundamentais para comparar a performance e o desempenho dos modelos utilizados. Nesse contexto, após obter os resultados dos modelos, foi gerada uma matriz de confusão para avaliar o desempenho.
-
-A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
-
-[Exemplo de matriz de confusão](https://github.com/2023M6T4-Inteli/Projeto01/issues/4#issue-1729946316)
-
 As métricas de avaliação são fundamentais para comparar a performance e o desempenho dos modelos utilizados. Nesse contexto, após obter os resultados dos modelos, foi gerada uma matriz de confusão para avaliar o desempenho (Franceschi, 2019).
 
 A matriz de confusão é uma tabela que apresenta o desempenho de um modelo de classificação, dividindo as previsões em quatro categorias, como demonstrado a seguir:
+
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/matriz%20de%20confus%C3%A3o.png" alt = "matriz de confusão"  >
+
+A acurácia é uma métrica simples que calcula a proporção de acertos do modelo, representada pela soma dos verdadeiros positivos e verdadeiros negativos, dividida pelo total de elementos utilizados na predição (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos). No entanto, é importante destacar que a acurácia sozinha não é suficiente para avaliar completamente o desempenho dos modelos, pois não considera a distribuição das classes ou possíveis desequilíbrios no conjunto de dados (Chen, et al, 2020).
 
 $$
 \begin{align}
 Acurácia={Verdadeiros Positivos \over Total}
 \end{align}
 $$
-
-A acurácia é uma métrica simples que calcula a proporção de acertos do modelo, representada pela soma dos verdadeiros positivos e verdadeiros negativos, dividida pelo total de elementos utilizados na predição (verdadeiros positivos, verdadeiros negativos, falsos positivos e falsos negativos). No entanto, é importante destacar que a acurácia sozinha não é suficiente para avaliar completamente o desempenho dos modelos, pois não considera a distribuição das classes ou possíveis desequilíbrios no conjunto de dados (Chen, et al, 2020).
 
 ## Resultados obtidos
 
@@ -110,13 +112,13 @@ Matriz Rede Neural - Word2Vec
 | **451** 	| 1113 	|
 
 Dentre os três modelos utilizados - Naive Bayes com Bag of Words (BoW), Naive Bayes com Word2Vec e Rede Neural com Word2Vec -, apresentamos a seguir os resultados obtidos em cada um deles.
+O modelo Naive Bayes com Word2Vec obteve uma acurácia de 0.44, enquanto o modelo Naive Bayes com BoW alcançou uma acurácia de 0.71.
 
-O modelo Naive Bayes com Word2Vec obteve uma acurácia de 0.44, enquanto o modelo Naive Bayes com BoW alcançou uma acurácia de 0.65.
 Por fim, a Rede Neural com Word2Vec obteve uma acurácia de 0.63. Ao treinar a rede neural com a camada de embedding do Word2Vec, foi possível alcançar uma acurácia de 71% nos dados de teste após 30 épocas de treinamento, utilizando 50 camadas de entrada, 26 camadas ocultas e uma camada de saída.
-
 Essas informações fornecem uma visão geral dos resultados obtidos em cada modelo, permitindo uma comparação direta entre suas performances.
 
-[Colocar resultados de acurácia e matriz de confusão]
+Comparação entre os desenvolvidos modelos:
+<img src=  "https://github.com/2023M6T4-Inteli/Projeto01/blob/main/assets/imagens/comparacaoModelo.png" alt = "matriz de confusão">
 
 ## Comparação com o modelo de Bag of Words (BoW)
 
@@ -126,7 +128,7 @@ Em geral, o uso de vetores de incorporação semântica, como no caso do Word2Ve
 
 Também é importante ressaltar que o modelo Bag of Words é mais simples e eficiente, pois requer apenas informações sobre a frequência das palavras. No entanto, devido à sua natureza de não considerar a ordem ou contexto das palavras, ele pode não ser tão preciso. Além disso, quando lidando com bancos de dados muito grandes, o modelo Bag of Words pode gerar um vocabulário extenso que demanda um processamento significativo para produzir resultados.
 
-Em contrapartida, o modelo Word2Vec, ao considerar a semântica e o contexto das palavras, tem maior facilidade em identificar palavras similares e estabelecer relações de analogia. Isso resulta em uma redução na dimensionalidade das representações das palavras em seu espaço vetorial, em comparação com o modelo Bag of Words. No entanto, por ser um modelo mais complexo, o Word2Vec requer mais poder de processamento e pode enfrentar dificuldades ao lidar com palavras que aparecem em poucas ocasiões.
+Em contrapartida, o  modelo Word2Vec, ao considerar a semântica e o contexto das palavras, tem maior facilidade em identificar palavras similares e estabelecer relações de analogia. Isso resulta em uma redução na dimensionalidade das representações das palavras em seu espaço vetorial, em comparação com o modelo Bag of Words. No entanto, por ser um modelo mais complexo, o Word2Vec requer mais poder de processamento e pode enfrentar dificuldades ao lidar com palavras que aparecem em poucas ocasiões.
 
 ## Conclusão 
 O modelo obteve sucesso ao fornecer os vetores correspondentes a cada frase inserida. Utilizou-se um modelo CBOW 50 pré-treinado, resultando em um vetor de 50 dimensões para cada frase.
