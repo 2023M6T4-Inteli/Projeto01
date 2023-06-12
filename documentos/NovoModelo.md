@@ -245,7 +245,7 @@ Em resumo, embora o Support Vector Machine e o Naive Bayes com word2vec tenham a
 | **${\color{Gold}Revocação}$** 	| **72,7%**	| **37,%**| **47,7%**| **79,7%**|
 
 ## Modelo escolhido :
-Tendo sido apresentados todos os resultados dos modelos utilizados neste projeto, o modelo de Rede Neural com vetorização por Transformers obteve a maior acurácia e revocação, 85.4% e 85.5% respectivamente. A fim de evitar o risco de overfitting, os resultados de treino e teste foram aplicados em um gráfico de curvatura de acurácia (Figura 6), para validar o desempenho desse modelo, para avaliar se o modelo está conseguindo generalizar a sua predição, e não apenas memorizando os dados de treino.
+Tendo sido apresentados todos os resultados dos modelos utilizados neste projeto, o modelo de Rede Neural com vetorização por Transformers obteve a maior acurácia e revocação, 80% e 79% respectivamente. A fim de evitar o risco de overfitting, os resultados de treino e teste foram aplicados em um gráfico de curvatura de acurácia (Figura 6), para validar o desempenho desse modelo, para avaliar se o modelo está conseguindo generalizar a sua predição, e não apenas memorizando os dados de treino.
 
 Este gráfico permite a visualização do desempenho do modelo à medida que o tamanho do conjunto de treinamento aumenta, em épocas (cada unidade de época representa a passagem do modelo em todo o conjunto de treinamento).
 
@@ -254,9 +254,9 @@ Este gráfico permite a visualização do desempenho do modelo à medida que o t
 Figura 6. Gráfico de Curvatura do Modelo de Rede Neural com Vetorização do tipo Transformers.
 
 Com base no gráfico, é visível que conforme o modelo passa por todo o conjunto de dados repetidamente, em cada época, a acurácia do treinamento aumenta rapidamente (curva azul), em relação à acurácia nos dados de teste (curva vermelha), que também apresenta um crescimento, porém mais discreto. 
-Ao final de 20 épocas, a linha de treino (azul) chega a 100% de acurácia. Já a linha de teste (vermelha) atinge um valor de 85% de acurácia, aproximadamente, entre 12 e 13 épocas, enquanto a linha de treino (azul) ainda está com 95% de acurácia, aproximadamente.
+Ao final de 20 épocas, a linha de treino (azul) chega a 100% de acurácia. Já a linha de teste (vermelha) atinge um valor de 80% de acurácia, aproximadamente, entre 12 e 13 épocas, enquanto a linha de treino (azul) ainda está com 90% de acurácia, aproximadamente.
 
-Por estar com uma média de 10% a mais na acurácia de treinamento, em relação à acurácia do teste, 95% e 85%, respectivamente, entre a época 12 e 13, o gráfico indica que não há um condicionamento por overfitting expressivo no modelo, mantendo um grau de generalização relevante, se as épocas forem limitadas neste valor.
+Por estar com uma média de 10% a mais na acurácia de treinamento, em relação à acurácia do teste, 90% e 80%, respectivamente, entre a época 12 e 13, o gráfico indica que não há um condicionamento por overfitting expressivo no modelo, mantendo um grau de generalização relevante, se as épocas forem limitadas neste valor.
 
 ## Critérios para escolha do modelo
 É importante definir os critérios para a escolha do modelo mais adequado ao problema proposto neste projeto, e para isso, é necessário considerar o valor mais relevante das métricas utilizadas, ressaltando que a métrica mais relevante pode variar, de acordo com a classe mais importante a ser classificada de forma correta, levando em conta qual tipo de erro da predição pode ser mais prejudicial ao usuário que irá utilizar a solução desenvolvida neste projeto.
@@ -271,7 +271,7 @@ Após considerar os critérios estabelecidos, o modelo escolhido para a modelage
 
 Ao avaliar a importância de identificar corretamente a classe Negativo, levando em conta o impacto que elementos dessa classe podem ter para o BTG, o modelo escolhido apresentou uma alta revocação, garantindo uma correta identificação dos verdadeiros negativos e reduzindo os falsos negativos.
 
-Os resultados obtidos demonstraram uma acurácia de 85,4% e uma revocação de 85,5% para o modelo. Essas métricas refletem a capacidade do modelo em identificar corretamente os sentimentos dos textos, principalmente da classe Negativo.
+Os resultados obtidos demonstraram uma acurácia de 80% e uma revocação de 79,7% para o modelo. Essas métricas refletem a capacidade do modelo em identificar corretamente os sentimentos dos textos, principalmente da classe Negativo.
 
 Portanto, com base nos critérios estabelecidos, a escolha do modelo de Rede Neural com vetorização do tipo Transformers se mostrou adequada para o projeto, pois atende tanto ao objetivo de identificar corretamente a classe Negativo quanto à obtenção de uma alta eficácia e revocação. Isso permitirá uma análise precisa dos sentimentos dos textos, maximizando a eficácia do sistema desenvolvido.
 
