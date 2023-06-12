@@ -2,21 +2,25 @@
 
 ## Introdução
 
+## Arquitetura Macro da Solução
+
+A arquitetura macro da solução é uma representação de alto nível que descreve a estrutura geral de uma solução. Ela abrange os principais blocos funcionais e as etapas-chave do processo do sistema e tem como objetivo fornecer uma representação visual desde a origem dos dados até a obtenção do resultado desejado. Nossa arquitetura macro inclui componentes como fontes de dados, processamento de dados, modelos, interfaces de usuário, entre outros. 
+
+Segue abaixo nossa arquitetura da solução:
+
 <img width="483" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/ed577911-1f31-4b83-bced-72dd05a3bc83">
 
-A arquitetura do sistema tem como objetivo fornecer uma representação visual de como a solução funciona, desde a origem dos dados até a obtenção do resultado desejado. Utilizamos técnicas como vetorização, codificação e seleção de features para alcançar esse objetivo.
+A arquitetura se inicia recebendo os dados de entrada proveniente de um arquivo "baseDados.csv" em formato Excel e a partir desses dados, é feita a análise descritiva. Essa análise envolve a extração de metadados relevantes dos dados utilizados e visa explorá-los de forma a identificar padrões, tendências e distribuições descritivas que possam ser relevantes para o desenvolvimento da solução.
 
-A origem dos dados é atualmente proveniente de uma planilha em formato Excel, fornecida pelo BTG.
+Na etapa seguinte, ocorre o pré-processamento dos dados, que consiste na realização de várias tarefas para facilitar a vetorização ou a transformação dos dados em uma matriz adequada para o treinamento do modelo. Essas técnicas incluem a normalização dos dados, o tratamento de valores ausentes, o processo de Tonekização, a remoção de ruídos, entre outras a fim de garantir a qualidade dos dados.
 
-Durante a fase de análise descritiva, extraímos metadados relevantes dos dados. Isso nos ajuda a entender melhor a natureza e as características dos dados em questão.
+Após os dados serem pré-processados, já é possível a criação do modelo. Ela envolve a definição de sua arquitetura, a seleção dos algoritmos adequados, a escolha de hiperparâmetros e a divisão dos dados em conjuntos de treinamento, validação e teste. Essa etapa é fundamental para o desenvolvimento de um modelo capaz de aprender padrões e fazer previsões precisas.
 
-No pré-processamento dos dados, realizamos diversas tarefas para facilitar a vetorização ou a transformação dos dados em uma matriz adequada para o treinamento do modelo. Isso pode incluir a normalização dos dados, tratamento de valores ausentes, remoção de ruídos, entre outras técnicas.
+Uma vez que o modelo é criado, é necessário treiná-lo com os dados disponíveis. Isso envolve alimentar o modelo com os dados de treinamento e ajustar seus parâmetros para otimizar o desempenho. O treinamento pode ser iterativo e exigir várias rodadas até que o modelo alcançe uma precisão satisfatória.
 
-A criação do modelo envolve a definição da arquitetura do modelo, escolha dos algoritmos adequados, seleção de hiperparâmetros e divisão dos dados em conjuntos de treinamento, validação e teste. Essa etapa é fundamental para desenvolver um modelo que seja capaz de aprender padrões e fazer previsões precisas.
+Por fim, o serviço é disponibilizado através de um dashboard intuitivo, que proporciona aos usuários uma visualização clara e compreensível dos resultados. O dashboard é capaz de fornecer métricas, gráficos e insights relevantes, auxiliando o colaborador de marketing do BTG a tomar decisões embasadas e estratégicas com base nas informações geradas pela solução.
 
-Após a criação do modelo, é necessário treiná-lo com os dados disponíveis. Isso envolve a alimentação dos dados de treinamento no modelo e o ajuste dos parâmetros para otimizar o desempenho. O treinamento pode ser iterativo e exigir várias rodadas até que o modelo atinja uma precisão satisfatória.
-
-Por fim, o serviço é disponibilizado por meio de um dashboard, que permite aos usuários visualizar os resultados de forma clara e compreensível. O dashboard pode fornecer métricas, gráficos e insights relevantes para auxiliar nas tomadas de decisão pelo colaborador de marketing do BTG.
+Em suma, a arquitetura da solução desempenha um papel crucial na implementação de um sistema proporcionando uma estrutura eficiente e sólida para a realização de análises e a tomada de decisões inteligentes no contexto de Análise de Sentimento dos comentários do Instagram do BTG Pactual.
 
 ## Metodologia
 Nesta seção do documento serão abordados os principais tópicos relacionados ao desenvolvimento e métricas de avaliação dos modelos preditivos, bem como a introdução do modelo escolhido para confrontar os modelos desenvolvidos em sprints anteriores, sendo este o Support Vector Machine.
