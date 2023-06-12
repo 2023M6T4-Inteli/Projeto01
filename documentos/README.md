@@ -35,15 +35,15 @@ Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](h
 
 ## Documentação dos resultados dos modelos - Sprint 4
 
-Acesso ao arquivo referente à entrega: [documentação do modelo de Word2Vec](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/NovoModelo.md)
+Acesso ao arquivo referente à entrega: [documentação dos resultados dos modelos](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/NovoModelo.md)
 
-## (Sprint 4) Proposta de uma nova modelagem utilizando novas features (IPYNB)
+## Proposta de uma nova modelagem utilizando novas features - Sprint 4
 
-Colocar o link do artefato (deve estar na pasta src do repositório do projeto).
+Acesso ao arquivo referente à entrega: [nova modelagem utilizando novas features](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/src/notebook/ModeloPLN_grupo1_sprint4.ipynb).
 
-## (Sprint 4) Documentação da proposta de uma nova modelagem
+## Documentação da proposta de uma nova modelagem - Sprint 4
 
-Preencher conforme a descrição do artefato na Adalove.
+Acesso ao arquivo referente à entrega: [nova modelagem](https://github.com/2023M6T4-Inteli/Projeto01/blob/Dev/documentos/NovoModelo.md)
 
 ## (Sprint 5) Apresentação Final
 
