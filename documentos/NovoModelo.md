@@ -254,13 +254,13 @@ Analisar este cenário, é desejável utilizar o modelo que apresenta um alto í
 
 Também é importante destacar que, ao confrontar os resultados dos modelos, seja levado em consideração o modelo com acurácia mais alta, além da revocação, e o tipo de vetorização que o modelo melhor se desempenhou. A combinação desses critérios indicará o modelo mais adequado para o projeto.
 
-###Conclusão:
+### Conclusão:
 
-Após considerar os critérios estabelecidos, o modelo escolhido para a modelagem preditiva foi a Rede Neural com vetorização do tipo Transformers. Esse modelo se destacou por sua capacidade de capturar o contexto das palavras e por sua complexidade, levando em consideração as relações entre elas.
+Após considerar os critérios estabelecidos, o modelo escolhido para a modelagem preditiva foi a Rede Neural com vetorização do tipo Transformers de sentença. Esse modelo se destacou por sua capacidade de capturar o contexto das palavras e por sua complexidade, levando em consideração as relações entre elas.
 
-Ao avaliar a importância de identificar corretamente a classe Negativo, levando em conta o impacto que elementos dessa classe podem ter no usuário, o modelo escolhido apresentou uma alta revocação, garantindo uma correta identificação dos verdadeiros negativos e reduzindo os falsos negativos.
+Ao avaliar a importância de identificar corretamente a classe Negativo, levando em conta o impacto que elementos dessa classe podem ter para o BTG, o modelo escolhido apresentou uma alta revocação, garantindo uma correta identificação dos verdadeiros negativos e reduzindo os falsos negativos.
 
-Os resultados obtidos demonstraram uma eficácia de 85,4% e uma revocação de 85,5% para o modelo escolhido. Essas métricas refletem a capacidade do modelo em identificar corretamente os sentimentos dos textos, principalmente da classe Negativo. A alta revocação indica que o modelo é capaz de recuperar a maioria dos exemplos da classe Negativo.
+Os resultados obtidos demonstraram uma acurácia de 85,4% e uma revocação de 85,5% para o modelo. Essas métricas refletem a capacidade do modelo em identificar corretamente os sentimentos dos textos, principalmente da classe Negativo.
 
 Portanto, com base nos critérios estabelecidos, a escolha do modelo de Rede Neural com vetorização do tipo Transformers se mostrou adequada para o projeto, pois atendeu tanto ao objetivo de identificar corretamente a classe Negativo quanto à obtenção de uma alta eficácia e revocação. Isso permitirá uma análise precisa dos sentimentos dos textos, maximizando a eficácia do sistema desenvolvido.
 
