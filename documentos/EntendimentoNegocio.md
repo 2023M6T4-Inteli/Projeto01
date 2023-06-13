@@ -9,7 +9,9 @@ Ao utilizar a matriz, é possível elaborar o modelo de quatro ações, que visa
 - **Aumentar**: nessa ação é possível incrementar atributos a fim de deixá-los mais em evidência com relação às empresas concorrentes analisadas.
 - **Criar**: essa ação permite a criação de um novo atributo que a indústria não explorou ou ofereceu aos seus clientes.
 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/oceano%20azul.png" alt = "Matriz Oceano Azul"  >
+<img width="400" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/c5c29030-d716-46e2-8312-60b74ecdefa5">
+
+<img width="380" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/c4b9756d-2d98-4f90-a78b-4d2970f7a9ee">
 
 **1. Relação qualidade/preço:** Esse parâmetro avalia a qualidade do produto em relação ao preço cobrado pela empresa. Ele deve descrever se o preço do serviço está de acordo com a qualidade do produto oferecido e como ele se compara com outras empresas do mercado.
 
@@ -43,11 +45,11 @@ Ao utilizar a matriz, é possível elaborar o modelo de quatro ações, que visa
 
 - Por se tratar de uma solução desenvolvida por estudantes, que não gera nenhum tipo de custo para a empresa, a **qualidade** do produto foi reduzida. Diante das circunstâncias, a prioridade do time é desenvolver uma solução cabível e bem estruturada, sempre prezando pelo aprendizado do time. Devido a esse fator, o atributo qualidade recebeu uma nota menor que as outras empresas do mercado.
 
-- A **escalabilidade** foi reduzida para tornar a solução mais voltada para um tipo específico de rede social, aumentando a eficiência e confiança nos resultados obtidos, visto que a especificidade favorece a construção de um algoritmo que pode perceber melhor os padrões do tipo de rede social escolhido. Tendo isso em vista, a nota 
+- A **escalabilidade** foi reduzida para tornar a solução mais voltada para um tipo específico de rede social, aumentando a eficiência e confiança nos resultados obtidos, visto que a especificidade favorece a construção de um algoritmo que pode perceber melhor os padrões do tipo de rede social escolhido. Tendo isso em vista, a nota foi reduzida perante os concorrentes de mercado que possuem tanto web scrapping como também várias redes sociais compatíveis para a solução.
 
 #### Aumentou:
 
-- O **tempo** gasto para a realização do projeto por parte do time será de dez semanas, enquanto que as empresas que prestam esse serviço no mercado levam de algumas horas até alguns dias para fornecer os resultados finais. Diante dessa comparação, quando colocada lado a lado com outras soluções, o projeto em questão aumentou o tempo gasto na realização da análise e, por isso, obteve a menor nota nessa linha da tabela.
+- A **velocidade** gasto para a realização do projeto por parte do time será de dez semanas, enquanto que as empresas que prestam esse serviço no mercado levam de algumas horas até alguns dias para fornecer os resultados finais. Diante dessa comparação, quando colocada lado a lado com outras soluções, o projeto em questão aumentou o tempo gasto na realização da análise e, por isso, obteve a menor nota nessa linha da tabela.
 
 - A **disponibilidade** da solução, de forma nacional e gratuita, é importante para divulgar e possibilitar o teste do produto, que será entregue com código aberto. Tais características tornam o produto mais competitivo em relação aos seus concorrentes, aumentando, também, a relação qualidade/preço, uma vez que os gastos com a utilização desse projeto serão praticamente nulos. Quando comparado a outras soluções, esse atributo é mais visível na solução que está sendo construída nesse projeto.
 
@@ -65,7 +67,7 @@ A Matriz de Risco é uma ferramenta que proporciona uma análise abrangente das 
 
 Segue a lista de todos os riscos (ameaças e oportunidades):
 
-<img src=  "https://github.com/2023M6T4-Inteli/Projeto1/blob/dev/assets/imagens/Matriz%20de%20risco.png" alt = "Imagem referente a matriz de risco." >
+<img width="678" alt="image" src="https://github.com/2023M6T4-Inteli/Projeto01/assets/99191909/6b5648b9-2f86-4b6d-8ea8-94d18205487f">
 
 Abaixo, é possível visualizar a legenda, referente à matriz de risco acima:
 
@@ -87,19 +89,11 @@ Abaixo, é possível visualizar a legenda, referente à matriz de risco acima:
 
 10. Desativação das bibliotecas utilizadas. Essas bibliotecas estão no mercado há um bom tempo, então é praticamente improvável que elas sejam desativadas no decorrer da realização desse projeto, por isso, a baixa probabilidade. Porém, caso ocorra, esse fator terá um alto impacto no projeto, visto que teremos que identificar novas bibliotecas para trabalhar no restante do desenvolvimento. 
 
-11. Maior conhecimento da equipe sobre IA, mais especificamente linguagem natural.
+11. Baixo nivel técnico dos integrantes em linguagem natural.
 
-12. Grande volume de dados gerados por redes sociais.
+12. Grande volume de dados gerados por redes sociais que serão utilizados para treinamento eficaz do modelo.
 
-13. Maior parte da verba de marketing das empresas é gasta em mídia sociais.
-
-14. Grande gasto de tempo da população com redes sociais.
-
-15. Maior conhecimento do grupo sobre novas ferramentas.
-
-16. Avanços no entendimento da psique humana.
-
-17. Autosuficiência do sistema para formulação de propagandas, sem ajuda de outros profissionais.
+13. Redução do tempo gasto em análises de problemas para possíveis campanhas de marketing.
 
 **Plano de ação** :
 				
