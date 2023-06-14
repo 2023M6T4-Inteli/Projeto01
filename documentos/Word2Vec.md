@@ -9,6 +9,13 @@ O Word2Vec é um algoritmo de Machine Learning amplamente utilizado em processam
 
 A fim de obter representações vetoriais de palavras mais precisas, optamos por utilizar um modelo Word2Vec pré-treinado. Através de um treinamento extensivo em grandes conjuntos de dados, o modelo é capaz de capturar relações semânticas com base nas ocorrências e contextos das palavras dentro do corpus de treinamento. Isso resulta em um conhecimento prévio rico e maior precisão nas aplicações de Processamento de Linguagem Natural (PLN).
 
+## Modelo Word2Vec com Skipgram
+
+Escolhemos testar o Modelo Word2Vec com SkipGram porque ele tem a capacidade de capturar relacionamentos contextuais entre palavras em um texto. Ele pode aprender a representar palavras com base em seu contexto, permitindo que palavras semanticamente e sintaticamente relacionadas sejam mapeadas para pontos próximos no espaço vetorial.
+
+ A ideia do Skipgram é treinar uma rede neural para aprender vetores de palavras, onde cada palavra é representada por um vetor denso de valores reais. O tamanho desses vetores é conhecido como dimensão de embedding e é um hiperparâmetro definido pelo usuário.O objetivo é encontrar os melhores vetores de palavras que capturem as relações semânticas e sintáticas presentes no corpus de treinamento. 
+
+
 ### Método escolhido
 O Método escolhido foi o Continuos Bag of Words (CBOW) por ter como objetivo a previsão de uma palavra alvo com base em seu contexto.Diferente do método Skip-gram, que prevê o contexto a partir de uma palavra-alvo, o CBOW considera múltiplas palavras em um contexto específico para fazer a previsão da palavra de destino.
 
