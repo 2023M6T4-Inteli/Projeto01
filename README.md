@@ -45,7 +45,7 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - README.md: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
 ## 🛠 Instalação
-- <a href="">Documento de instalação</a>
+- <a href="https://docs.google.com/document/d/16ERsz6ZAMB0Qn0oOf_9B-fMrZiF4x-vr5G2csH8bbCI/edit">Documento de instalação</a>
 
 ## 💻 Configuração para Desenvolvimento
 - <a href="">Documento de configuração para desenvolvimento</a>
