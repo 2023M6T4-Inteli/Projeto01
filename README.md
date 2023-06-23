@@ -19,27 +19,20 @@
 
 ## 📜 Descrição
 
-Descrição curta sobre o que seu projeto faz.
-
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
-
-## 📹 Demonstração do Projeto
-
-Coloque aqui os links de vídeos de demonstração do seu projeto.
+O projeto de machine learning desenvolvido em parceria com o BTG Pactual tem como objetivo principal otimizar as estratégias de marketing digital por meio da análise de dados provenientes do Instagram. Utilizando técnicas de Processamento de Linguagem Natural (PLN), são identificadas palavras-chave nos comentários, compreendendo a receptividade dos usuários e direcionando campanhas futuras de acordo com os interesses e preferências dos consumidores. Essa abordagem baseada em dados oferece ao BTG Pactual uma vantagem competitiva na adaptação de suas estratégias de marketing e no aprimoramento do relacionamento com os clientes.
 
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
 |-->assets<br>
-   |--> imagens <br>
-   |--> vídeos <br>
+. . . .|--> imagens <br>
+. . . .|--> vídeos <br>
 |-->documentos<br>
-   |--> apresentação <br>
-   |--> outros <br>
+. . . .|--> apresentação <br>
+. . . .|--> outros <br>
 |-->src <br>
-   |-->codigo fonte <br>
-   |--> notebook <br>
-|readme.md<br>
+. . . .|--> notebook <br>
+| readme.md<br>
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
@@ -52,26 +45,24 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 - README.md: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
 ## 🛠 Instalação
-
-Insira aqui as instruções para instalação (uso) do projeto.
+- <a href="">Documento de instalação</a>
 
 ## 💻 Configuração para Desenvolvimento
-
-Insira aqui as instruções para desenvolvimento (modificação) do projeto.
+- <a href="">Documento de configuração para desenvolvimento</a>
 
 ## 🗃 Histórico de lançamentos
 
 A cada atualização os detalhes devem ser lançados aqui (segue exemplo abaixo).
 
-* 0.5.0 - XX/XX/2023
-    * Quinta entrega
-* 0.4.0 - XX/XX/2023
-    * Quarta entrega
-* 0.3.0 - XX/XX/2023
-    * Terceira entrega
-* 0.2.0 - XX/XX/2023
-    * Segunda entrega
-* 0.0.1 - 28/04/2023
+* 0.5.0 - 23/06/2023
+    * Entrega da quinta sprint: escolha do melhor modelo e representações gráficas.
+* 0.4.0 - 07/06/2023
+    * Entrega da quarta sprint: modelagem e aprimoramentos.
+* 0.3.0 - 26/06/2023
+    * Entrega da terceira sprint: word embedding e vetorização com word2vec.
+* 0.2.0 - 12/06/2023
+    * Entrega da segunda sprint: pré processamento e vetorização com bag of words.
+* 0.1.0 - 28/04/2023
     * Entrega da primeira sprint: entendimento do negócio e entendimento da experiência do usuário.
 
 ## 📋 Licença/License
@@ -87,4 +78,8 @@ Aqui estão as referências usadas no projeto (exemplos abaixo).
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
+4. <http://nilc.icmc.usp.br/nilc/index.php/repositorio-de-word-embeddings-do-nilc/>
+5. <https://www.ibm.com/docs/en/spss-modeler/18.1.1?topic=guide-introduction-crisp-dm/>
+6. <https://www.tensorflow.org/tutorials/keras/text_classification#loss_function_and_optimizer/>
+7. <https://www.gradio.app//>
 
