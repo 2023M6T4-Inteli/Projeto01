@@ -36,11 +36,11 @@ O projeto de machine learning desenvolvido em parceria com o BTG Pactual tem com
 
 Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
-- assets: aqui estão os arquivos relacionados a parte gráfica do projeto, ou seja, as imagens e vídeos que os representam (O logo do grupo pode ser adicionado nesta pasta).
+- assets: aqui estão os arquivos relacionados a parte gráfica do projeto, ou seja, as imagens e vídeos que os representam.
 
-- documentos: aqui estão todos os documentos do projeto, incluindo o manual de instruções (se aplicável). Há também uma pasta denominada outros onde estão presentes outros documentos complementares.
+- documentos: aqui estão todos os documentos do projeto, incluindo o manual de instalações. Há também uma pasta denominada outros onde estão presentes outros documentos complementares.
 
-- src: Todo o código fonte criado para o desenvolvimento do projeto, incluindo os notebooks, backend e frontend se aplicáveis.
+- src: Todo o código fonte criado para o desenvolvimento do projeto, incluindo todos os notebooks.
 
 - README.md: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
