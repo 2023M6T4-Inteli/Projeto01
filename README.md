@@ -21,6 +21,10 @@
 
 O projeto de machine learning desenvolvido em parceria com o BTG Pactual tem como objetivo principal otimizar as estratégias de marketing digital por meio da análise de dados provenientes do Instagram. Utilizando técnicas de Processamento de Linguagem Natural (PLN), são identificadas palavras-chave nos comentários, compreendendo a receptividade dos usuários e direcionando campanhas futuras de acordo com os interesses e preferências dos consumidores. Essa abordagem baseada em dados oferece ao BTG Pactual uma vantagem competitiva na adaptação de suas estratégias de marketing e no aprimoramento do relacionamento com os clientes.
 
+## 📹 Demonstração do Projeto
+
+<a href="https://drive.google.com/file/d/1TFTKixtA6iniHYpl3wRasjhNNLmPBAtk/view?usp=sharing">Vídeo demonstração do projeto.</a>
+
 ## 🛠 Estrutura de pastas
 
 -Raiz<br>
